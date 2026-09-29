@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+.venv/
+.DS_Store
+# a fetch interrupted mid-write leaves its temporary files behind
+data/.tmp-*
+# web
+node_modules/
+web/.next/
+web/out/
+*.tsbuildinfo

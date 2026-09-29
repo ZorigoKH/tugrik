@@ -1,0 +1,53 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tugrik"
+dynamic = ["version"]
+description = "Mongolia's economy explained by the price of copper, and by how many coal trucks China lets across the border."
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Zorigtbaatar Khasbaatar", email = "zk2380@nyu.edu" }]
+keywords = ["mongolia", "tugrik", "copper", "coal", "exchange rates", "newey-west", "open data"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Office/Business :: Financial",
+  "Topic :: Scientific/Engineering",
+]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "pandas>=2.0",
+  "requests>=2.31",
+  "openpyxl>=3.1",
+  "sandwich @ git+https://github.com/ZorigoKH/Sandwich.git@v0.2.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.15,<0.16", "statsmodels>=0.14"]
+
+[project.urls]
+Repository = "https://github.com/ZorigoKH/tugrik"
+
+[tool.hatch.version]
+path = "pipeline/__init__.py"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["pipeline"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "N"]
