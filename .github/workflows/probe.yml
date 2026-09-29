@@ -1,0 +1,30 @@
+name: probe
+
+# Run this by hand before the first data run. None of the endpoints had been tried from a
+# GitHub runner; the IMF DataMapper, the Bank of Mongolia and NSO are the unknowns. The
+# table (status, bytes and seconds per request) lands in the job summary, and the job fails
+# if any request failed.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: |
+            pyproject.toml
+            ci/constraints.txt
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e . -c ci/constraints.txt
+      - name: Probe every endpoint
+        run: python -m pipeline.probe

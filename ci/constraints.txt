@@ -1,0 +1,7 @@
+# Minor versions for the scheduled jobs (data.yml, probe.yml), so that a rebuild of an
+# unchanged store gives byte-identical JSON. Move them on purpose: bump, rebuild, check the
+# diff in web/data, commit both together.
+numpy==2.5.*
+pandas==3.0.*
+scipy==1.18.*
+openpyxl==3.1.*

@@ -1,0 +1,59 @@
+name: data
+
+on:
+  schedule:
+    # The Pink Sheet is out about the 2nd, NSO trade and CPI by about the 9th to 11th,
+    # and the 20th catches whatever came late.
+    - cron: "41 2 3,12,20 * *"
+  workflow_dispatch:
+    inputs:
+      accept_revisions:
+        description: "Sources whose update to accept as fetched, comma-separated (e.g. nso,pinksheet): revisions beyond tolerance and cross-source disagreements are logged, not rejected"
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: write
+
+concurrency: data
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: |
+            pyproject.toml
+            ci/constraints.txt
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e . -c ci/constraints.txt
+      # A failing source keeps its previous data and prints a ::warning::, and the job
+      # passes. Three failing sources, or one with no previous data, abort the run
+      # (exit 1) and fail the job.
+      - name: Fetch
+        env:
+          ACCEPT_REVISIONS: ${{ inputs.accept_revisions }}
+        run: python -m pipeline.fetch --store data --accept-revisions "$ACCEPT_REVISIONS"
+      - name: Build
+        run: python -m pipeline.build --store data --out web/data --csv web/public/csv
+      - name: Validate
+        run: python -m pipeline.validate web/data
+      - name: Commit if changed
+        run: |
+          if [ -z "$(git status --porcelain -- data web)" ]; then
+            echo "data/ and web/ are unchanged"
+            exit 0
+          fi
+          through=$(python -c "import json; print(json.load(open('web/data/meta.json'))['through']['fx'])")
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- data web
+          git commit -m "Refresh the data through ${through}"
+          git push
