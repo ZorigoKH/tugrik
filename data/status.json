@@ -1,0 +1,418 @@
+{
+ "series": {
+  "bom_cpi_yoy": {
+   "first": "2009-09",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 204,
+   "source": "bom"
+  },
+  "bom_policy_rate_decisions": {
+   "first": "2007-07-09",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-09-17",
+   "rows": 62,
+   "source": "bom"
+  },
+  "bom_usdmnt_daily": {
+   "first": "2001-01-02",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-09-27",
+   "rows": 8502,
+   "source": "bom"
+  },
+  "bom_usdmnt_monthly_avg": {
+   "first": "1993-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 404,
+   "source": "bom"
+  },
+  "fred_cnyusd_monthly_avg": {
+   "first": "1981-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 548,
+   "source": "fred"
+  },
+  "fred_usd_broad_index": {
+   "first": "2006-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 248,
+   "source": "fred"
+  },
+  "imf_cnyusd_monthly_avg": {
+   "first": "1957-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 836,
+   "source": "imf_sdmx"
+  },
+  "imf_cpi_mom": {
+   "first": "2006-02",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 247,
+   "source": "imf_sdmx"
+  },
+  "imf_cpi_yoy": {
+   "first": "2007-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 236,
+   "source": "imf_sdmx"
+  },
+  "imf_pcps_copper": {
+   "first": "1992-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 416,
+   "source": "imf_sdmx"
+  },
+  "imf_pcps_gold": {
+   "first": "1992-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 416,
+   "source": "imf_sdmx"
+  },
+  "imf_pcps_zinc": {
+   "first": "1992-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 416,
+   "source": "imf_sdmx"
+  },
+  "imf_usdmnt_eop": {
+   "first": "1990-07",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 434,
+   "source": "imf_sdmx"
+  },
+  "imf_usdmnt_monthly_avg": {
+   "first": "1990-07",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 434,
+   "source": "imf_sdmx"
+  },
+  "imf_weo_china_gdp_growth": {
+   "first": "1980",
+   "last_changed": "2026-09-28",
+   "last_obs": "2031",
+   "rows": 52,
+   "source": "imf_datamapper"
+  },
+  "imf_weo_cpi_inflation": {
+   "first": "1991",
+   "last_changed": "2026-09-28",
+   "last_obs": "2031",
+   "rows": 41,
+   "source": "imf_datamapper"
+  },
+  "imf_weo_current_account_pct_gdp": {
+   "first": "1991",
+   "last_changed": "2026-09-28",
+   "last_obs": "2031",
+   "rows": 41,
+   "source": "imf_datamapper"
+  },
+  "imf_weo_gdp_growth": {
+   "first": "1980",
+   "last_changed": "2026-09-28",
+   "last_obs": "2031",
+   "rows": 52,
+   "source": "imf_datamapper"
+  },
+  "imf_weo_gov_debt_pct_gdp": {
+   "first": "2006",
+   "last_changed": "2026-09-28",
+   "last_obs": "2031",
+   "rows": 26,
+   "source": "imf_datamapper"
+  },
+  "nso_cpi_mom_b2015": {
+   "first": "1991-10",
+   "last_changed": "2026-09-28",
+   "last_obs": "2022-07",
+   "rows": 370,
+   "source": "nso"
+  },
+  "nso_cpi_mom_b2020": {
+   "first": "2020-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 80,
+   "source": "nso"
+  },
+  "nso_cpi_mom_b2023": {
+   "first": "2023-02",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 43,
+   "source": "nso"
+  },
+  "nso_cpi_yoy_b2015": {
+   "first": "1993-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2022-07",
+   "rows": 355,
+   "source": "nso"
+  },
+  "nso_cpi_yoy_b2020": {
+   "first": "2020-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 80,
+   "source": "nso"
+  },
+  "nso_cpi_yoy_b2023": {
+   "first": "2024-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 32,
+   "source": "nso"
+  },
+  "nso_export_coal_kt": {
+   "first": "2011-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 188,
+   "source": "nso"
+  },
+  "nso_export_coal_kusd": {
+   "first": "2011-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 188,
+   "source": "nso"
+  },
+  "nso_export_copper_conc_kt": {
+   "first": "2011-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 188,
+   "source": "nso"
+  },
+  "nso_export_copper_conc_kusd": {
+   "first": "2011-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 188,
+   "source": "nso"
+  },
+  "nso_export_crude_oil_kbbl": {
+   "first": "2011-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 188,
+   "source": "nso"
+  },
+  "nso_export_crude_oil_kusd": {
+   "first": "2011-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 188,
+   "source": "nso"
+  },
+  "nso_export_gold_kusd": {
+   "first": "2011-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 188,
+   "source": "nso"
+  },
+  "nso_export_gold_t": {
+   "first": "2011-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 188,
+   "source": "nso"
+  },
+  "nso_export_iron_ore_kt": {
+   "first": "2011-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 188,
+   "source": "nso"
+  },
+  "nso_export_iron_ore_kusd": {
+   "first": "2011-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 188,
+   "source": "nso"
+  },
+  "nso_export_zinc_conc_kt": {
+   "first": "2011-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 188,
+   "source": "nso"
+  },
+  "nso_export_zinc_conc_kusd": {
+   "first": "2011-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 188,
+   "source": "nso"
+  },
+  "nso_exports_total_musd": {
+   "first": "1997-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 356,
+   "source": "nso"
+  },
+  "nso_usdmnt_eop": {
+   "first": "2006-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 248,
+   "source": "nso"
+  },
+  "nso_usdmnt_monthly_avg": {
+   "first": "1994-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 392,
+   "source": "nso"
+  },
+  "pinksheet_brent": {
+   "first": "1960-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 800,
+   "source": "pinksheet"
+  },
+  "pinksheet_coal_australian": {
+   "first": "1970-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 680,
+   "source": "pinksheet"
+  },
+  "pinksheet_copper": {
+   "first": "1960-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 800,
+   "source": "pinksheet"
+  },
+  "pinksheet_gold": {
+   "first": "1960-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 800,
+   "source": "pinksheet"
+  },
+  "pinksheet_iron_ore": {
+   "first": "1960-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 800,
+   "source": "pinksheet"
+  },
+  "pinksheet_zinc": {
+   "first": "1960-01",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "rows": 800,
+   "source": "pinksheet"
+  },
+  "wdi_china_gdp_growth": {
+   "first": "1961",
+   "last_changed": "2026-09-28",
+   "last_obs": "2025",
+   "rows": 65,
+   "source": "wdi"
+  },
+  "wdi_current_account_pct_gdp": {
+   "first": "1981",
+   "last_changed": "2026-09-28",
+   "last_obs": "2024",
+   "rows": 44,
+   "source": "wdi"
+  },
+  "wdi_fdi_pct_gdp": {
+   "first": "1981",
+   "last_changed": "2026-09-28",
+   "last_obs": "2024",
+   "rows": 42,
+   "source": "wdi"
+  },
+  "wdi_gdp_growth": {
+   "first": "1982",
+   "last_changed": "2026-09-28",
+   "last_obs": "2025",
+   "rows": 44,
+   "source": "wdi"
+  }
+ },
+ "sources": {
+  "bom": {
+   "error": null,
+   "info": {},
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-09-27",
+   "revisions": 0,
+   "status": "ok"
+  },
+  "fred": {
+   "error": null,
+   "info": {},
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "revisions": 0,
+   "status": "ok"
+  },
+  "imf_datamapper": {
+   "error": null,
+   "info": {
+    "weo_vintage": "April 2026"
+   },
+   "last_changed": "2026-09-28",
+   "last_obs": "2031",
+   "revisions": 0,
+   "status": "ok"
+  },
+  "imf_sdmx": {
+   "error": null,
+   "info": {},
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "revisions": 0,
+   "status": "ok"
+  },
+  "nso": {
+   "error": null,
+   "info": {},
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "revisions": 0,
+   "status": "ok"
+  },
+  "pinksheet": {
+   "error": null,
+   "info": {
+    "updated_on": "2026-09-02",
+    "url": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx"
+   },
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "revisions": 0,
+   "status": "ok"
+  },
+  "wdi": {
+   "error": null,
+   "info": {},
+   "last_changed": "2026-09-28",
+   "last_obs": "2025",
+   "revisions": 0,
+   "status": "ok"
+  }
+ },
+ "store_version": 1
+}
