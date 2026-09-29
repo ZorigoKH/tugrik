@@ -1,0 +1,749 @@
+[
+ {
+  "body": null,
+  "frequency": "daily",
+  "id": "bom",
+  "license": "none stated; public central-bank data, attributed to the Bank of Mongolia",
+  "method": "POST",
+  "name": "Exchange rates, policy rate and inflation",
+  "publisher": "Bank of Mongolia",
+  "redistribute": false,
+  "series": [
+   {
+    "csv": null,
+    "first": "2001-01-02",
+    "id": "bom_usdmnt_daily",
+    "label": "MNT per US dollar, official daily rate",
+    "last": "2026-09-27",
+    "status": "ok",
+    "units": "MNT per USD"
+   },
+   {
+    "csv": null,
+    "first": "1993-01",
+    "id": "bom_usdmnt_monthly_avg",
+    "label": "MNT per US dollar, monthly average (BoM)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "MNT per USD"
+   },
+   {
+    "csv": null,
+    "first": "2007-07-09",
+    "id": "bom_policy_rate_decisions",
+    "label": "Policy rate, by decision",
+    "last": "2026-09-17",
+    "status": "ok",
+    "units": "percent"
+   },
+   {
+    "csv": null,
+    "first": "2009-09",
+    "id": "bom_cpi_yoy",
+    "label": "CPI inflation as reported by the BoM, national, year on year",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "percent"
+   }
+  ],
+  "url": "https://www.mongolbank.mn/en/currency-rate-movement/data"
+ },
+ {
+  "body": null,
+  "frequency": "monthly",
+  "id": "nso",
+  "license": "official statistics; reuse citing \"Source: Mongolian Statistical Service\"",
+  "method": "POST",
+  "name": "CPI, exchange rates and exports (PxWeb)",
+  "publisher": "National Statistics Office of Mongolia",
+  "redistribute": true,
+  "series": [
+   {
+    "csv": "csv/nso_cpi_mom_b2015.csv",
+    "first": "1991-10",
+    "id": "nso_cpi_mom_b2015",
+    "label": "CPI, national, month on month (2015=100 base)",
+    "last": "2022-07",
+    "status": "ok",
+    "units": "percent"
+   },
+   {
+    "csv": "csv/nso_cpi_mom_b2020.csv",
+    "first": "2020-01",
+    "id": "nso_cpi_mom_b2020",
+    "label": "CPI, national, month on month (2020=100 base)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "percent"
+   },
+   {
+    "csv": "csv/nso_cpi_mom_b2023.csv",
+    "first": "2023-02",
+    "id": "nso_cpi_mom_b2023",
+    "label": "CPI, national, month on month (2023=100 base)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "percent"
+   },
+   {
+    "csv": "csv/nso_cpi_yoy_b2015.csv",
+    "first": "1993-01",
+    "id": "nso_cpi_yoy_b2015",
+    "label": "CPI, national, year on year (2015=100 base)",
+    "last": "2022-07",
+    "status": "ok",
+    "units": "percent"
+   },
+   {
+    "csv": "csv/nso_cpi_yoy_b2020.csv",
+    "first": "2020-01",
+    "id": "nso_cpi_yoy_b2020",
+    "label": "CPI, national, year on year (2020=100 base)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "percent"
+   },
+   {
+    "csv": "csv/nso_cpi_yoy_b2023.csv",
+    "first": "2024-01",
+    "id": "nso_cpi_yoy_b2023",
+    "label": "CPI, national, year on year (2023=100 base)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "percent"
+   },
+   {
+    "csv": "csv/nso_usdmnt_monthly_avg.csv",
+    "first": "1994-01",
+    "id": "nso_usdmnt_monthly_avg",
+    "label": "MNT per US dollar, monthly average (NSO)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "MNT per USD"
+   },
+   {
+    "csv": "csv/nso_usdmnt_eop.csv",
+    "first": "2006-01",
+    "id": "nso_usdmnt_eop",
+    "label": "MNT per US dollar, end of month (NSO)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "MNT per USD"
+   },
+   {
+    "csv": "csv/nso_exports_total_musd.csv",
+    "first": "1997-01",
+    "id": "nso_exports_total_musd",
+    "label": "Exports, total",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "million USD"
+   },
+   {
+    "csv": "csv/nso_export_coal_kusd.csv",
+    "first": "2011-01",
+    "id": "nso_export_coal_kusd",
+    "label": "Exports of coal, value",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "thousand USD"
+   },
+   {
+    "csv": "csv/nso_export_coal_kt.csv",
+    "first": "2011-01",
+    "id": "nso_export_coal_kt",
+    "label": "Exports of coal, volume",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "thousand tonnes"
+   },
+   {
+    "csv": "csv/nso_export_copper_conc_kusd.csv",
+    "first": "2011-01",
+    "id": "nso_export_copper_conc_kusd",
+    "label": "Exports of copper concentrate, value",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "thousand USD"
+   },
+   {
+    "csv": "csv/nso_export_copper_conc_kt.csv",
+    "first": "2011-01",
+    "id": "nso_export_copper_conc_kt",
+    "label": "Exports of copper concentrate, volume",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "thousand tonnes"
+   },
+   {
+    "csv": "csv/nso_export_gold_kusd.csv",
+    "first": "2011-01",
+    "id": "nso_export_gold_kusd",
+    "label": "Exports of gold, value",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "thousand USD"
+   },
+   {
+    "csv": "csv/nso_export_gold_t.csv",
+    "first": "2011-01",
+    "id": "nso_export_gold_t",
+    "label": "Exports of gold, volume",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "tonnes"
+   },
+   {
+    "csv": "csv/nso_export_iron_ore_kusd.csv",
+    "first": "2011-01",
+    "id": "nso_export_iron_ore_kusd",
+    "label": "Exports of iron ore, value",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "thousand USD"
+   },
+   {
+    "csv": "csv/nso_export_iron_ore_kt.csv",
+    "first": "2011-01",
+    "id": "nso_export_iron_ore_kt",
+    "label": "Exports of iron ore, volume",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "thousand tonnes"
+   },
+   {
+    "csv": "csv/nso_export_crude_oil_kusd.csv",
+    "first": "2011-01",
+    "id": "nso_export_crude_oil_kusd",
+    "label": "Exports of crude oil, value",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "thousand USD"
+   },
+   {
+    "csv": "csv/nso_export_crude_oil_kbbl.csv",
+    "first": "2011-01",
+    "id": "nso_export_crude_oil_kbbl",
+    "label": "Exports of crude oil, volume",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "thousand barrels"
+   },
+   {
+    "csv": "csv/nso_export_zinc_conc_kusd.csv",
+    "first": "2011-01",
+    "id": "nso_export_zinc_conc_kusd",
+    "label": "Exports of zinc concentrate, value",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "thousand USD"
+   },
+   {
+    "csv": "csv/nso_export_zinc_conc_kt.csv",
+    "first": "2011-01",
+    "id": "nso_export_zinc_conc_kt",
+    "label": "Exports of zinc concentrate, volume",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "thousand tonnes"
+   }
+  ],
+  "url": "https://data.1212.mn/api/v1/en/NSO/"
+ },
+ {
+  "body": null,
+  "frequency": "monthly",
+  "id": "pinksheet",
+  "license": "CC BY 4.0",
+  "method": "GET",
+  "name": "Commodity Price Data (The Pink Sheet), monthly",
+  "publisher": "World Bank",
+  "redistribute": true,
+  "series": [
+   {
+    "csv": "csv/pinksheet_copper.csv",
+    "first": "1960-01",
+    "id": "pinksheet_copper",
+    "label": "Copper, LME grade A",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "USD per tonne"
+   },
+   {
+    "csv": "csv/pinksheet_coal_australian.csv",
+    "first": "1970-01",
+    "id": "pinksheet_coal_australian",
+    "label": "Coal, Australian thermal",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "USD per tonne"
+   },
+   {
+    "csv": "csv/pinksheet_gold.csv",
+    "first": "1960-01",
+    "id": "pinksheet_gold",
+    "label": "Gold",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "USD per troy ounce"
+   },
+   {
+    "csv": "csv/pinksheet_iron_ore.csv",
+    "first": "1960-01",
+    "id": "pinksheet_iron_ore",
+    "label": "Iron ore, cfr spot",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "USD per dry metric ton unit"
+   },
+   {
+    "csv": "csv/pinksheet_brent.csv",
+    "first": "1960-01",
+    "id": "pinksheet_brent",
+    "label": "Crude oil, Brent",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "USD per barrel"
+   },
+   {
+    "csv": "csv/pinksheet_zinc.csv",
+    "first": "1960-01",
+    "id": "pinksheet_zinc",
+    "label": "Zinc",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "USD per tonne"
+   }
+  ],
+  "url": "https://www.worldbank.org/en/research/commodity-markets"
+ },
+ {
+  "body": null,
+  "frequency": "monthly",
+  "id": "imf_sdmx",
+  "license": "IMF terms of use: free reuse with attribution",
+  "method": "GET",
+  "name": "Exchange rates, CPI and primary commodity prices (SDMX 2.1)",
+  "publisher": "International Monetary Fund",
+  "redistribute": true,
+  "series": [
+   {
+    "csv": "csv/imf_usdmnt_monthly_avg.csv",
+    "first": "1990-07",
+    "id": "imf_usdmnt_monthly_avg",
+    "label": "MNT per US dollar, monthly average (IMF)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "MNT per USD"
+   },
+   {
+    "csv": "csv/imf_usdmnt_eop.csv",
+    "first": "1990-07",
+    "id": "imf_usdmnt_eop",
+    "label": "MNT per US dollar, end of month (IMF)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "MNT per USD"
+   },
+   {
+    "csv": "csv/imf_cpi_yoy.csv",
+    "first": "2007-01",
+    "id": "imf_cpi_yoy",
+    "label": "CPI, year on year (IMF)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "percent"
+   },
+   {
+    "csv": "csv/imf_cpi_mom.csv",
+    "first": "2006-02",
+    "id": "imf_cpi_mom",
+    "label": "CPI, month on month (IMF)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "percent"
+   },
+   {
+    "csv": "csv/imf_pcps_copper.csv",
+    "first": "1992-01",
+    "id": "imf_pcps_copper",
+    "label": "Copper (IMF PCPS)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "USD per tonne"
+   },
+   {
+    "csv": "csv/imf_pcps_gold.csv",
+    "first": "1992-01",
+    "id": "imf_pcps_gold",
+    "label": "Gold (IMF PCPS)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "USD per troy ounce"
+   },
+   {
+    "csv": "csv/imf_pcps_zinc.csv",
+    "first": "1992-01",
+    "id": "imf_pcps_zinc",
+    "label": "Zinc (IMF PCPS)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "USD per tonne"
+   },
+   {
+    "csv": "csv/imf_cnyusd_monthly_avg.csv",
+    "first": "1957-01",
+    "id": "imf_cnyusd_monthly_avg",
+    "label": "CNY per US dollar, monthly average (IMF)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "CNY per USD"
+   }
+  ],
+  "url": "https://api.imf.org/external/sdmx/2.1/"
+ },
+ {
+  "body": null,
+  "frequency": "twice a year",
+  "id": "imf_datamapper",
+  "license": "IMF terms of use: free reuse with attribution",
+  "method": "GET",
+  "name": "World Economic Outlook (DataMapper API v2)",
+  "publisher": "International Monetary Fund",
+  "redistribute": true,
+  "series": [
+   {
+    "csv": "csv/imf_weo_gdp_growth.csv",
+    "first": "1980",
+    "id": "imf_weo_gdp_growth",
+    "label": "Real GDP growth (IMF WEO)",
+    "last": "2031",
+    "status": "ok",
+    "units": "percent"
+   },
+   {
+    "csv": "csv/imf_weo_cpi_inflation.csv",
+    "first": "1991",
+    "id": "imf_weo_cpi_inflation",
+    "label": "CPI inflation, average (IMF WEO)",
+    "last": "2031",
+    "status": "ok",
+    "units": "percent"
+   },
+   {
+    "csv": "csv/imf_weo_gov_debt_pct_gdp.csv",
+    "first": "2006",
+    "id": "imf_weo_gov_debt_pct_gdp",
+    "label": "General government gross debt (IMF WEO)",
+    "last": "2031",
+    "status": "ok",
+    "units": "percent of GDP"
+   },
+   {
+    "csv": "csv/imf_weo_current_account_pct_gdp.csv",
+    "first": "1991",
+    "id": "imf_weo_current_account_pct_gdp",
+    "label": "Current account balance (IMF WEO)",
+    "last": "2031",
+    "status": "ok",
+    "units": "percent of GDP"
+   },
+   {
+    "csv": "csv/imf_weo_china_gdp_growth.csv",
+    "first": "1980",
+    "id": "imf_weo_china_gdp_growth",
+    "label": "China real GDP growth (IMF WEO)",
+    "last": "2031",
+    "status": "ok",
+    "units": "percent"
+   }
+  ],
+  "url": "https://www.imf.org/external/datamapper/api/v2/"
+ },
+ {
+  "body": null,
+  "frequency": "annual",
+  "id": "wdi",
+  "license": "CC BY 4.0",
+  "method": "GET",
+  "name": "World Development Indicators (API v2)",
+  "publisher": "World Bank",
+  "redistribute": true,
+  "series": [
+   {
+    "csv": "csv/wdi_gdp_growth.csv",
+    "first": "1982",
+    "id": "wdi_gdp_growth",
+    "label": "Real GDP growth (WDI)",
+    "last": "2025",
+    "status": "ok",
+    "units": "percent"
+   },
+   {
+    "csv": "csv/wdi_fdi_pct_gdp.csv",
+    "first": "1981",
+    "id": "wdi_fdi_pct_gdp",
+    "label": "Foreign direct investment, net inflows (WDI)",
+    "last": "2024",
+    "status": "ok",
+    "units": "percent of GDP"
+   },
+   {
+    "csv": "csv/wdi_current_account_pct_gdp.csv",
+    "first": "1981",
+    "id": "wdi_current_account_pct_gdp",
+    "label": "Current account balance (WDI)",
+    "last": "2024",
+    "status": "ok",
+    "units": "percent of GDP"
+   },
+   {
+    "csv": "csv/wdi_china_gdp_growth.csv",
+    "first": "1961",
+    "id": "wdi_china_gdp_growth",
+    "label": "China real GDP growth (WDI)",
+    "last": "2025",
+    "status": "ok",
+    "units": "percent"
+   }
+  ],
+  "url": "https://api.worldbank.org/v2/"
+ },
+ {
+  "body": null,
+  "frequency": "monthly",
+  "id": "fred",
+  "license": "Federal Reserve Board data; cite FRED",
+  "method": "GET",
+  "name": "FRED: broad dollar index and CNY per USD",
+  "publisher": "Federal Reserve Bank of St. Louis",
+  "redistribute": true,
+  "series": [
+   {
+    "csv": "csv/fred_usd_broad_index.csv",
+    "first": "2006-01",
+    "id": "fred_usd_broad_index",
+    "label": "Nominal broad US dollar index (TWEXBGSMTH)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "index, January 2006 = 100"
+   },
+   {
+    "csv": "csv/fred_cnyusd_monthly_avg.csv",
+    "first": "1981-01",
+    "id": "fred_cnyusd_monthly_avg",
+    "label": "CNY per US dollar, monthly average (EXCHUS)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "CNY per USD"
+   },
+   {
+    "csv": "csv/fred_twexbmth.csv",
+    "first": "1973-01",
+    "id": "fred_twexbmth",
+    "label": "Broad US dollar index, TWEXBMTH (discontinued; static seed)",
+    "last": "2019-12",
+    "status": "ok",
+    "units": "index, January 1997 = 100"
+   }
+  ],
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv"
+ },
+ {
+  "body": null,
+  "frequency": "frozen",
+  "id": "comtrade",
+  "license": "UN Comtrade terms of use",
+  "method": "GET",
+  "name": "Mongolia's exports by HS code, 1996-2007 (a static seed, never fetched)",
+  "publisher": "UN Comtrade",
+  "redistribute": false,
+  "series": [
+   {
+    "csv": null,
+    "first": "1996",
+    "id": "comtrade_mng_exports_coal_hs2701_musd",
+    "label": "Exports of coal, 1996-2007 (static seed)",
+    "last": "2007",
+    "status": "ok",
+    "units": "million USD"
+   },
+   {
+    "csv": null,
+    "first": "1996",
+    "id": "comtrade_mng_exports_copper_conc_hs2603_musd",
+    "label": "Exports of copper, 1996-2007 (static seed)",
+    "last": "2007",
+    "status": "ok",
+    "units": "million USD"
+   },
+   {
+    "csv": null,
+    "first": "1998",
+    "id": "comtrade_mng_exports_gold_hs7108_musd",
+    "label": "Exports of gold, 1996-2007 (static seed)",
+    "last": "2007",
+    "status": "ok",
+    "units": "million USD"
+   },
+   {
+    "csv": null,
+    "first": "1997",
+    "id": "comtrade_mng_exports_iron_ore_hs2601_musd",
+    "label": "Exports of iron ore, 1996-2007 (static seed)",
+    "last": "2007",
+    "status": "ok",
+    "units": "million USD"
+   },
+   {
+    "csv": null,
+    "first": "1996",
+    "id": "comtrade_mng_exports_crude_oil_hs2709_musd",
+    "label": "Exports of oil, 1996-2007 (static seed)",
+    "last": "2007",
+    "status": "ok",
+    "units": "million USD"
+   },
+   {
+    "csv": null,
+    "first": "2002",
+    "id": "comtrade_mng_exports_zinc_conc_hs2608_musd",
+    "label": "Exports of zinc, 1996-2007 (static seed)",
+    "last": "2007",
+    "status": "ok",
+    "units": "million USD"
+   }
+  ],
+  "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS"
+ },
+ {
+  "body": null,
+  "frequency": "with each build",
+  "id": "derived",
+  "license": "attribute the underlying sources",
+  "method": null,
+  "name": "Series this project derives from the sources above",
+  "publisher": "tugrik",
+  "redistribute": true,
+  "series": [
+   {
+    "csv": "csv/derived_cnyusd_monthly_avg.csv",
+    "first": "1981-01",
+    "id": "derived_cnyusd_monthly_avg",
+    "label": "CNY per US dollar, monthly average",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "CNY per USD"
+   },
+   {
+    "csv": "csv/derived_coal_unit_value_usd_t.csv",
+    "first": "2011-01",
+    "id": "derived_coal_unit_value_usd_t",
+    "label": "Coal exports, value per tonne",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "USD per tonne"
+   },
+   {
+    "csv": "csv/derived_cpi_mom.csv",
+    "first": "1991-10",
+    "id": "derived_cpi_mom",
+    "label": "CPI, national, month on month (newest NSO base)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "percent"
+   },
+   {
+    "csv": "csv/derived_cpi_yoy.csv",
+    "first": "1993-01",
+    "id": "derived_cpi_yoy",
+    "label": "CPI, national, year on year (newest NSO base)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "percent"
+   },
+   {
+    "csv": "csv/derived_mxpi_pct.csv",
+    "first": "1996",
+    "id": "derived_mxpi_pct",
+    "label": "Mongolia's export-price index, change",
+    "last": "2025",
+    "status": "ok",
+    "units": "percent (100 dlog)"
+   },
+   {
+    "csv": "csv/derived_mxpi_weight_coal.csv",
+    "first": "1996",
+    "id": "derived_mxpi_weight_coal",
+    "label": "Export-price index weight: coal",
+    "last": "2025",
+    "status": "ok",
+    "units": "share"
+   },
+   {
+    "csv": "csv/derived_mxpi_weight_copper.csv",
+    "first": "1996",
+    "id": "derived_mxpi_weight_copper",
+    "label": "Export-price index weight: copper",
+    "last": "2025",
+    "status": "ok",
+    "units": "share"
+   },
+   {
+    "csv": "csv/derived_mxpi_weight_gold.csv",
+    "first": "1996",
+    "id": "derived_mxpi_weight_gold",
+    "label": "Export-price index weight: gold",
+    "last": "2025",
+    "status": "ok",
+    "units": "share"
+   },
+   {
+    "csv": "csv/derived_mxpi_weight_iron_ore.csv",
+    "first": "1996",
+    "id": "derived_mxpi_weight_iron_ore",
+    "label": "Export-price index weight: iron ore",
+    "last": "2025",
+    "status": "ok",
+    "units": "share"
+   },
+   {
+    "csv": "csv/derived_mxpi_weight_oil.csv",
+    "first": "1996",
+    "id": "derived_mxpi_weight_oil",
+    "label": "Export-price index weight: oil",
+    "last": "2025",
+    "status": "ok",
+    "units": "share"
+   },
+   {
+    "csv": "csv/derived_mxpi_weight_zinc.csv",
+    "first": "1996",
+    "id": "derived_mxpi_weight_zinc",
+    "label": "Export-price index weight: zinc",
+    "last": "2025",
+    "status": "ok",
+    "units": "share"
+   },
+   {
+    "csv": "csv/derived_usd_broad_index.csv",
+    "first": "1973-01",
+    "id": "derived_usd_broad_index",
+    "label": "Broad US dollar index, TWEXBMTH spliced to TWEXBGSMTH",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "index, January 2006 = 100"
+   },
+   {
+    "csv": "csv/derived_usdmnt_monthly_avg.csv",
+    "first": "1990-07",
+    "id": "derived_usdmnt_monthly_avg",
+    "label": "MNT per US dollar, monthly average (consensus of BoM, NSO and IMF)",
+    "last": "2026-08",
+    "status": "ok",
+    "units": "MNT per USD"
+   }
+  ],
+  "url": "https://github.com/ZorigoKH/tugrik"
+ }
+]

@@ -1,0 +1,811 @@
+{
+ "annual": [
+  {
+   "gdp_growth_pct": 2.235094,
+   "mxpi_lag_pct": null,
+   "mxpi_pct": -24.629497,
+   "weights": {
+    "coal": 3.6e-05,
+    "copper": 0.999964,
+    "gold": 0.0,
+    "iron_ore": 0.0,
+    "oil": 0.0,
+    "zinc": 0.0
+   },
+   "weights_source": "comtrade",
+   "year": "1996"
+  },
+  {
+   "gdp_growth_pct": 3.896714,
+   "mxpi_lag_pct": -24.629497,
+   "mxpi_pct": -0.798712,
+   "weights": {
+    "coal": 1.7e-05,
+    "copper": 0.999983,
+    "gold": 0.0,
+    "iron_ore": 0.0,
+    "oil": 0.0,
+    "zinc": 0.0
+   },
+   "weights_source": "comtrade",
+   "year": "1997"
+  },
+  {
+   "gdp_growth_pct": 3.339937,
+   "mxpi_lag_pct": -0.798712,
+   "mxpi_pct": -31.937604,
+   "weights": {
+    "coal": 0.000165,
+    "copper": 0.946535,
+    "gold": 0.049637,
+    "iron_ore": 0.0,
+    "oil": 0.003663,
+    "zinc": 0.0
+   },
+   "weights_source": "comtrade",
+   "year": "1998"
+  },
+  {
+   "gdp_growth_pct": 3.070369,
+   "mxpi_lag_pct": -31.937604,
+   "mxpi_pct": -4.917072,
+   "weights": {
+    "coal": 0.0,
+    "copper": 0.965584,
+    "gold": 0.025013,
+    "iron_ore": 0.0,
+    "oil": 0.009403,
+    "zinc": 0.0
+   },
+   "weights_source": "comtrade",
+   "year": "1999"
+  },
+  {
+   "gdp_growth_pct": 1.146062,
+   "mxpi_lag_pct": -4.917072,
+   "mxpi_pct": 14.183942,
+   "weights": {
+    "coal": 0.0,
+    "copper": 0.673831,
+    "gold": 0.318547,
+    "iron_ore": 0.0,
+    "oil": 0.007622,
+    "zinc": 0.0
+   },
+   "weights_source": "comtrade",
+   "year": "2000"
+  },
+  {
+   "gdp_growth_pct": 2.952711,
+   "mxpi_lag_pct": 14.183942,
+   "mxpi_pct": -10.420322,
+   "weights": {
+    "coal": 0.0,
+    "copper": 0.65702,
+    "gold": 0.335083,
+    "iron_ore": 0.0,
+    "oil": 0.007897,
+    "zinc": 0.0
+   },
+   "weights_source": "comtrade",
+   "year": "2001"
+  },
+  {
+   "gdp_growth_pct": 4.732978,
+   "mxpi_lag_pct": -10.420322,
+   "mxpi_pct": 3.762061,
+   "weights": {
+    "coal": 5e-06,
+    "copper": 0.63857,
+    "gold": 0.347328,
+    "iron_ore": 1.4e-05,
+    "oil": 0.014083,
+    "zinc": 0.0
+   },
+   "weights_source": "comtrade",
+   "year": "2002"
+  },
+  {
+   "gdp_growth_pct": 7.004635,
+   "mxpi_lag_pct": 3.762061,
+   "mxpi_pct": 14.152237,
+   "weights": {
+    "coal": 0.018621,
+    "copper": 0.521397,
+    "gold": 0.4455,
+    "iron_ore": 1e-06,
+    "oil": 0.014481,
+    "zinc": 0.0
+   },
+   "weights_source": "comtrade",
+   "year": "2003"
+  },
+  {
+   "gdp_growth_pct": 10.625406,
+   "mxpi_lag_pct": 14.152237,
+   "mxpi_pct": 31.850057,
+   "weights": {
+    "coal": 0.030712,
+    "copper": 0.529154,
+    "gold": 0.427303,
+    "iron_ore": 0.001144,
+    "oil": 0.011687,
+    "zinc": 0.0
+   },
+   "weights_source": "comtrade",
+   "year": "2004"
+  },
+  {
+   "gdp_growth_pct": 7.253665,
+   "mxpi_lag_pct": 31.850057,
+   "mxpi_pct": 16.929091,
+   "weights": {
+    "coal": 0.037573,
+    "copper": 0.460426,
+    "gold": 0.467755,
+    "iron_ore": 0.00675,
+    "oil": 0.013072,
+    "zinc": 0.014424
+   },
+   "weights_source": "comtrade",
+   "year": "2005"
+  },
+  {
+   "gdp_growth_pct": 8.556235,
+   "mxpi_lag_pct": 16.929091,
+   "mxpi_pct": 43.738183,
+   "weights": {
+    "coal": 0.042007,
+    "copper": 0.592159,
+    "gold": 0.251713,
+    "iron_ore": 0.010696,
+    "oil": 0.01849,
+    "zinc": 0.084935
+   },
+   "weights_source": "comtrade",
+   "year": "2006"
+  },
+  {
+   "gdp_growth_pct": 10.248016,
+   "mxpi_lag_pct": 43.738183,
+   "mxpi_pct": 8.91351,
+   "weights": {
+    "coal": 0.082288,
+    "copper": 0.576552,
+    "gold": 0.166889,
+    "iron_ore": 0.011721,
+    "oil": 0.037875,
+    "zinc": 0.124675
+   },
+   "weights_source": "comtrade",
+   "year": "2007"
+  },
+  {
+   "gdp_growth_pct": 8.900368,
+   "mxpi_lag_pct": 8.91351,
+   "mxpi_pct": 2.40444,
+   "weights": {
+    "coal": 0.197368,
+    "copper": 0.490216,
+    "gold": 0.131718,
+    "iron_ore": 0.03514,
+    "oil": 0.043507,
+    "zinc": 0.102051
+   },
+   "weights_source": "interpolated",
+   "year": "2008"
+  },
+  {
+   "gdp_growth_pct": -1.268599,
+   "mxpi_lag_pct": 2.40444,
+   "mxpi_pct": -30.154215,
+   "weights": {
+    "coal": 0.312447,
+    "copper": 0.40388,
+    "gold": 0.096548,
+    "iron_ore": 0.058559,
+    "oil": 0.049138,
+    "zinc": 0.079428
+   },
+   "weights_source": "interpolated",
+   "year": "2009"
+  },
+  {
+   "gdp_growth_pct": 6.365162,
+   "mxpi_lag_pct": -30.154215,
+   "mxpi_pct": 34.476858,
+   "weights": {
+    "coal": 0.427525,
+    "copper": 0.317545,
+    "gold": 0.061377,
+    "iron_ore": 0.081978,
+    "oil": 0.05477,
+    "zinc": 0.056805
+   },
+   "weights_source": "interpolated",
+   "year": "2010"
+  },
+  {
+   "gdp_growth_pct": 17.290778,
+   "mxpi_lag_pct": 34.476858,
+   "mxpi_pct": 18.349027,
+   "weights": {
+    "coal": 0.542605,
+    "copper": 0.23121,
+    "gold": 0.026206,
+    "iron_ore": 0.105397,
+    "oil": 0.060401,
+    "zinc": 0.034181
+   },
+   "weights_source": "nso",
+   "year": "2011"
+  },
+  {
+   "gdp_growth_pct": 12.31982,
+   "mxpi_lag_pct": 18.349027,
+   "mxpi_pct": -17.932519,
+   "weights": {
+    "coal": 0.492427,
+    "copper": 0.217134,
+    "gold": 0.031666,
+    "iron_ore": 0.137883,
+    "oil": 0.087014,
+    "zinc": 0.033876
+   },
+   "weights_source": "nso",
+   "year": "2012"
+  },
+  {
+   "gdp_growth_pct": 11.648916,
+   "mxpi_lag_pct": -17.932519,
+   "mxpi_pct": -8.351594,
+   "weights": {
+    "coal": 0.30579,
+    "copper": 0.25858,
+    "gold": 0.084425,
+    "iron_ore": 0.178299,
+    "oil": 0.140457,
+    "zinc": 0.032449
+   },
+   "weights_source": "nso",
+   "year": "2013"
+  },
+  {
+   "gdp_growth_pct": 7.885225,
+   "mxpi_lag_pct": -8.351594,
+   "mxpi_pct": -15.252688,
+   "weights": {
+    "coal": 0.169025,
+    "copper": 0.51257,
+    "gold": 0.080675,
+    "iron_ore": 0.088864,
+    "oil": 0.126337,
+    "zinc": 0.022529
+   },
+   "weights_source": "nso",
+   "year": "2014"
+  },
+  {
+   "gdp_growth_pct": 2.379836,
+   "mxpi_lag_pct": -15.252688,
+   "mxpi_pct": -28.073104,
+   "weights": {
+    "coal": 0.139936,
+    "copper": 0.573951,
+    "gold": 0.105864,
+    "iron_ore": 0.05719,
+    "oil": 0.09747,
+    "zinc": 0.025589
+   },
+   "weights_source": "nso",
+   "year": "2015"
+  },
+  {
+   "gdp_growth_pct": 1.489784,
+   "mxpi_lag_pct": -28.073104,
+   "mxpi_pct": -5.960617,
+   "weights": {
+    "coal": 0.238983,
+    "copper": 0.394859,
+    "gold": 0.186263,
+    "iron_ore": 0.061372,
+    "oil": 0.08281,
+    "zinc": 0.035713
+   },
+   "weights_source": "nso",
+   "year": "2016"
+  },
+  {
+   "gdp_growth_pct": 5.636876,
+   "mxpi_lag_pct": -5.960617,
+   "mxpi_pct": 20.625125,
+   "weights": {
+    "coal": 0.424296,
+    "copper": 0.301841,
+    "gold": 0.111401,
+    "iron_ore": 0.058635,
+    "oil": 0.069995,
+    "zinc": 0.033832
+   },
+   "weights_source": "nso",
+   "year": "2017"
+  },
+  {
+   "gdp_growth_pct": 7.744881,
+   "mxpi_lag_pct": 20.625125,
+   "mxpi_pct": 11.616489,
+   "weights": {
+    "coal": 0.475713,
+    "copper": 0.34156,
+    "gold": 0.024528,
+    "iron_ore": 0.058084,
+    "oil": 0.066538,
+    "zinc": 0.033577
+   },
+   "weights_source": "nso",
+   "year": "2018"
+  },
+  {
+   "gdp_growth_pct": 5.602244,
+   "mxpi_lag_pct": 11.616489,
+   "mxpi_pct": -17.150062,
+   "weights": {
+    "coal": 0.479182,
+    "copper": 0.279505,
+    "gold": 0.065118,
+    "iron_ore": 0.089712,
+    "oil": 0.057067,
+    "zinc": 0.029416
+   },
+   "weights_source": "nso",
+   "year": "2019"
+  },
+  {
+   "gdp_growth_pct": -4.557752,
+   "mxpi_lag_pct": -17.150062,
+   "mxpi_pct": -10.951612,
+   "weights": {
+    "coal": 0.319749,
+    "copper": 0.267338,
+    "gold": 0.268789,
+    "iron_ore": 0.09623,
+    "oil": 0.022682,
+    "zinc": 0.025212
+   },
+   "weights_source": "nso",
+   "year": "2020"
+  },
+  {
+   "gdp_growth_pct": 1.63677,
+   "mxpi_lag_pct": -10.951612,
+   "mxpi_pct": 43.34012,
+   "weights": {
+    "coal": 0.343308,
+    "copper": 0.358875,
+    "gold": 0.124315,
+    "iron_ore": 0.11784,
+    "oil": 0.033829,
+    "zinc": 0.021833
+   },
+   "weights_source": "nso",
+   "year": "2021"
+  },
+  {
+   "gdp_growth_pct": 5.03271,
+   "mxpi_lag_pct": 43.34012,
+   "mxpi_pct": 27.599211,
+   "weights": {
+    "coal": 0.576443,
+    "copper": 0.242415,
+    "gold": 0.099934,
+    "iron_ore": 0.034662,
+    "oil": 0.021433,
+    "zinc": 0.025113
+   },
+   "weights_source": "nso",
+   "year": "2022"
+  },
+  {
+   "gdp_growth_pct": 7.422113,
+   "mxpi_lag_pct": 27.599211,
+   "mxpi_pct": -41.128331,
+   "weights": {
+    "coal": 0.669479,
+    "copper": 0.197544,
+    "gold": 0.055525,
+    "iron_ore": 0.03346,
+    "oil": 0.027441,
+    "zinc": 0.016551
+   },
+   "weights_source": "nso",
+   "year": "2023"
+  },
+  {
+   "gdp_growth_pct": 5.122045,
+   "mxpi_lag_pct": -41.128331,
+   "mxpi_pct": -13.658549,
+   "weights": {
+    "coal": 0.620423,
+    "copper": 0.236752,
+    "gold": 0.064153,
+    "iron_ore": 0.042624,
+    "oil": 0.022976,
+    "zinc": 0.013072
+   },
+   "weights_source": "nso",
+   "year": "2024"
+  },
+  {
+   "gdp_growth_pct": 6.843914,
+   "mxpi_lag_pct": -13.658549,
+   "mxpi_pct": -10.492757,
+   "weights": {
+    "coal": 0.41305,
+    "copper": 0.417609,
+    "gold": 0.088854,
+    "iron_ore": 0.045673,
+    "oil": 0.018033,
+    "zinc": 0.016781
+   },
+   "weights_source": "nso",
+   "year": "2025"
+  }
+ ],
+ "boom_bust": [
+  {
+   "copper_pct": -2.278208,
+   "cpi_pct": 28.0,
+   "current_account_pct_gdp": -12.283757,
+   "exports_usd_bn": 2.53445,
+   "fdi_pct_gdp": 15.021615,
+   "fx_dec_dec_pct": 5.018629,
+   "gdp_growth_pct": 8.900368,
+   "gov_debt_pct_gdp": 31.0,
+   "policy_rate_dec_pct": 9.75,
+   "year": "2008"
+  },
+  {
+   "copper_pct": -25.964395,
+   "cpi_pct": 7.6,
+   "current_account_pct_gdp": -7.456247,
+   "exports_usd_bn": 1.88539,
+   "fdi_pct_gdp": 13.604485,
+   "fx_dec_dec_pct": 17.701815,
+   "gdp_growth_pct": -1.268599,
+   "gov_debt_pct_gdp": 48.5,
+   "policy_rate_dec_pct": 10.0,
+   "year": "2009"
+  },
+  {
+   "copper_pct": 46.306575,
+   "cpi_pct": 8.3,
+   "current_account_pct_gdp": -12.316216,
+   "exports_usd_bn": 2.90849,
+   "fdi_pct_gdp": 23.526337,
+   "fx_dec_dec_pct": -14.66416,
+   "gdp_growth_pct": 6.365162,
+   "gov_debt_pct_gdp": 31.0,
+   "policy_rate_dec_pct": 11.0,
+   "year": "2010"
+  },
+  {
+   "copper_pct": 17.167316,
+   "cpi_pct": 8.8,
+   "current_account_pct_gdp": -43.345519,
+   "exports_usd_bn": 4.8175,
+   "fdi_pct_gdp": 43.912113,
+   "fx_dec_dec_pct": 11.32534,
+   "gdp_growth_pct": 17.290778,
+   "gov_debt_pct_gdp": 32.7,
+   "policy_rate_dec_pct": 12.25,
+   "year": "2011"
+  },
+  {
+   "copper_pct": -9.808567,
+   "cpi_pct": 13.8,
+   "current_account_pct_gdp": -43.771235,
+   "exports_usd_bn": 4.3845,
+   "fdi_pct_gdp": 34.755983,
+   "fx_dec_dec_pct": 1.594382,
+   "gdp_growth_pct": 12.31982,
+   "gov_debt_pct_gdp": 43.7,
+   "policy_rate_dec_pct": 13.25,
+   "year": "2012"
+  },
+  {
+   "copper_pct": -7.91443,
+   "cpi_pct": 10.6,
+   "current_account_pct_gdp": -37.607666,
+   "exports_usd_bn": 4.2692,
+   "fdi_pct_gdp": 16.370076,
+   "fx_dec_dec_pct": 19.946136,
+   "gdp_growth_pct": 11.648916,
+   "gov_debt_pct_gdp": 49.4,
+   "policy_rate_dec_pct": 10.5,
+   "year": "2013"
+  },
+  {
+   "copper_pct": -6.394272,
+   "cpi_pct": 12.9,
+   "current_account_pct_gdp": -15.820878,
+   "exports_usd_bn": 5.7744,
+   "fdi_pct_gdp": 2.762588,
+   "fx_dec_dec_pct": 12.446106,
+   "gdp_growth_pct": 7.885225,
+   "gov_debt_pct_gdp": 44.0,
+   "policy_rate_dec_pct": 12.0,
+   "year": "2014"
+  },
+  {
+   "copper_pct": -19.71005,
+   "cpi_pct": 6.8,
+   "current_account_pct_gdp": -8.162342,
+   "exports_usd_bn": 4.6693,
+   "fdi_pct_gdp": 0.811709,
+   "fx_dec_dec_pct": 5.992565,
+   "gdp_growth_pct": 2.379836,
+   "gov_debt_pct_gdp": 50.5,
+   "policy_rate_dec_pct": 13.0,
+   "year": "2015"
+  },
+  {
+   "copper_pct": -11.659559,
+   "cpi_pct": 0.8,
+   "current_account_pct_gdp": -6.257482,
+   "exports_usd_bn": 4.9163,
+   "fdi_pct_gdp": -37.172653,
+   "fx_dec_dec_pct": 24.387225,
+   "gdp_growth_pct": 1.489784,
+   "gov_debt_pct_gdp": 78.7,
+   "policy_rate_dec_pct": 14.0,
+   "year": "2016"
+  },
+  {
+   "copper_pct": 26.749521,
+   "cpi_pct": 4.3,
+   "current_account_pct_gdp": -10.064098,
+   "exports_usd_bn": 6.2005,
+   "fdi_pct_gdp": 13.016028,
+   "fx_dec_dec_pct": -1.977004,
+   "gdp_growth_pct": 5.636876,
+   "gov_debt_pct_gdp": 86.9,
+   "policy_rate_dec_pct": 11.0,
+   "year": "2017"
+  },
+  {
+   "copper_pct": 5.830475,
+   "cpi_pct": 6.8,
+   "current_account_pct_gdp": -14.436894,
+   "exports_usd_bn": 7.0117,
+   "fdi_pct_gdp": 14.80888,
+   "fx_dec_dec_pct": 8.377428,
+   "gdp_growth_pct": 7.744881,
+   "gov_debt_pct_gdp": 76.5,
+   "policy_rate_dec_pct": 11.0,
+   "year": "2018"
+  },
+  {
+   "copper_pct": -7.963348,
+   "cpi_pct": 7.3,
+   "current_account_pct_gdp": -15.216332,
+   "exports_usd_bn": 7.6197,
+   "fdi_pct_gdp": 17.19894,
+   "fx_dec_dec_pct": 3.412075,
+   "gdp_growth_pct": 5.602244,
+   "gov_debt_pct_gdp": 66.8,
+   "policy_rate_dec_pct": 11.0,
+   "year": "2019"
+  },
+  {
+   "copper_pct": 2.727437,
+   "cpi_pct": 3.7,
+   "current_account_pct_gdp": -5.067324,
+   "exports_usd_bn": 7.5762,
+   "fdi_pct_gdp": 12.91308,
+   "fx_dec_dec_pct": 4.480803,
+   "gdp_growth_pct": -4.557752,
+   "gov_debt_pct_gdp": 83.4,
+   "policy_rate_dec_pct": 6.0,
+   "year": "2020"
+  },
+  {
+   "copper_pct": 50.912453,
+   "cpi_pct": 7.4,
+   "current_account_pct_gdp": -13.792875,
+   "exports_usd_bn": 9.2411,
+   "fdi_pct_gdp": 14.217732,
+   "fx_dec_dec_pct": -0.020657,
+   "gdp_growth_pct": 1.63677,
+   "gov_debt_pct_gdp": 67.3,
+   "policy_rate_dec_pct": 6.0,
+   "year": "2021"
+  },
+  {
+   "copper_pct": -5.311033,
+   "cpi_pct": 15.1,
+   "current_account_pct_gdp": -13.434245,
+   "exports_usd_bn": 12.5387,
+   "fdi_pct_gdp": 14.605307,
+   "fx_dec_dec_pct": 20.44009,
+   "gdp_growth_pct": 5.03271,
+   "gov_debt_pct_gdp": 64.5,
+   "policy_rate_dec_pct": 13.0,
+   "year": "2022"
+  },
+  {
+   "copper_pct": -3.762268,
+   "cpi_pct": 10.4,
+   "current_account_pct_gdp": 0.596632,
+   "exports_usd_bn": 15.187,
+   "fdi_pct_gdp": 11.058107,
+   "fx_dec_dec_pct": -0.29384,
+   "gdp_growth_pct": 7.422113,
+   "gov_debt_pct_gdp": 46.7,
+   "policy_rate_dec_pct": 13.0,
+   "year": "2023"
+  },
+  {
+   "copper_pct": 7.675396,
+   "cpi_pct": 6.2,
+   "current_account_pct_gdp": -10.445398,
+   "exports_usd_bn": 15.78337,
+   "fdi_pct_gdp": 11.692498,
+   "fx_dec_dec_pct": -0.09576,
+   "gdp_growth_pct": 5.122045,
+   "gov_debt_pct_gdp": 44.1,
+   "policy_rate_dec_pct": 10.0,
+   "year": "2024"
+  },
+  {
+   "copper_pct": 8.810071,
+   "cpi_pct": 8.6,
+   "current_account_pct_gdp": null,
+   "exports_usd_bn": 15.76115,
+   "fdi_pct_gdp": null,
+   "fx_dec_dec_pct": 3.840095,
+   "gdp_growth_pct": 6.843914,
+   "gov_debt_pct_gdp": 45.1,
+   "policy_rate_dec_pct": 12.0,
+   "year": "2025"
+  }
+ ],
+ "fit": {
+  "const": {
+   "est": 5.737064,
+   "hi": 7.643378,
+   "lo": 3.830749,
+   "p": 2e-06,
+   "se": 0.927408,
+   "t": 6.186128
+  },
+  "end": "2025",
+  "maxlags": 3,
+  "mxpi": {
+   "est": 0.030078,
+   "hi": 0.092106,
+   "lo": -0.03195,
+   "p": 0.328071,
+   "se": 0.030176,
+   "t": 0.996754
+  },
+  "mxpi_l1": {
+   "est": 0.084922,
+   "hi": 0.132601,
+   "lo": 0.037244,
+   "p": 0.001124,
+   "se": 0.023195,
+   "t": 3.661196
+  },
+  "nobs": 29,
+  "p_l1_hc1": 0.014313,
+  "p_l1_nonrobust": 0.016028,
+  "r2": 0.246615,
+  "start": "1997",
+  "sum": {
+   "est": 0.115001,
+   "hi": 0.205151,
+   "lo": 0.02485,
+   "p": 0.014414,
+   "se": 0.043857,
+   "t": 2.622149
+  }
+ },
+ "robustness": [
+  {
+   "drop": [
+    "2009"
+   ],
+   "mxpi_l1": {
+    "est": 0.088375,
+    "hi": 0.137667,
+    "lo": 0.039084,
+    "p": 0.001086,
+    "se": 0.023933,
+    "t": 3.69259
+   },
+   "nobs": 28
+  },
+  {
+   "drop": [
+    "2020"
+   ],
+   "mxpi_l1": {
+    "est": 0.074821,
+    "hi": 0.119132,
+    "lo": 0.030509,
+    "p": 0.001868,
+    "se": 0.021515,
+    "t": 3.477568
+   },
+   "nobs": 28
+  },
+  {
+   "drop": [
+    "2009",
+    "2020"
+   ],
+   "mxpi_l1": {
+    "est": 0.078063,
+    "hi": 0.128016,
+    "lo": 0.028111,
+    "p": 0.003612,
+    "se": 0.024203,
+    "t": 3.225373
+   },
+   "nobs": 27
+  },
+  {
+   "drop": [
+    "2011"
+   ],
+   "mxpi_l1": {
+    "est": 0.065519,
+    "hi": 0.104366,
+    "lo": 0.026672,
+    "p": 0.001886,
+    "se": 0.018862,
+    "t": 3.473572
+   },
+   "nobs": 28
+  },
+  {
+   "drop": [
+    "2021",
+    "2022",
+    "2023"
+   ],
+   "mxpi_l1": {
+    "est": 0.090619,
+    "hi": 0.146246,
+    "lo": 0.034992,
+    "p": 0.002644,
+    "se": 0.02689,
+    "t": 3.369922
+   },
+   "nobs": 26
+  }
+ ],
+ "schema_version": 1,
+ "takeaway": "A 10% rise in Mongolia's export prices has been followed by about 0.85 pp faster growth the next year (29 years; t = 3.7 with HAC, p = 0.016 without — treat as descriptive).",
+ "takeaway_mix": "Coal went from none of these exports in 1996 to 67% in 2023; in 2025, copper and coal split them 42/41.",
+ "takeaway_weo": "The IMF expects 5.3% in 2026 and about 5% a year after that.",
+ "weo": {
+  "gdp_growth_pct": [
+   5.3,
+   5.3,
+   5.2,
+   5.0,
+   5.0,
+   5.0
+  ],
+  "vintage": "April 2026",
+  "years": [
+   "2026",
+   "2027",
+   "2028",
+   "2029",
+   "2030",
+   "2031"
+  ]
+ }
+}

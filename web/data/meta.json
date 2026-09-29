@@ -1,0 +1,136 @@
+{
+ "generated_at": "2026-09-29",
+ "reference": [
+  {
+   "current": -0.225941,
+   "id": "copper_h12",
+   "label": "copper, 12-month sum, 2001 to now",
+   "page": "copper",
+   "reference": -0.226
+  },
+  {
+   "current": 0.059264,
+   "id": "copper_h12_se",
+   "label": "its standard error",
+   "page": "copper",
+   "reference": 0.059
+  },
+  {
+   "current": -0.023515,
+   "id": "copper_h3_post2017",
+   "label": "copper, months 0-3, 2017 to now",
+   "page": "copper",
+   "reference": -0.024
+  },
+  {
+   "current": 0.129709,
+   "id": "passthrough_h12",
+   "label": "pass-through at 12 months (B3)",
+   "page": "prices",
+   "reference": 0.13
+  },
+  {
+   "current": 0.215408,
+   "id": "passthrough_long_run",
+   "label": "pass-through, long run (B3)",
+   "page": "prices",
+   "reference": 0.215
+  },
+  {
+   "current": 0.084922,
+   "id": "growth_mxpi_l1",
+   "label": "growth on export prices a year earlier (C2)",
+   "page": "growth",
+   "reference": 0.085
+  },
+  {
+   "current": 0.115001,
+   "id": "growth_sum",
+   "label": "growth on export prices, both years (C2)",
+   "page": "growth",
+   "reference": 0.115
+  },
+  {
+   "current": 16.11759,
+   "id": "coal_2021_mt",
+   "label": "coal exports in 2021, Mt",
+   "page": "coal",
+   "reference": 16.1
+  },
+  {
+   "current": 44.032235,
+   "id": "coal_2021_vs_2019",
+   "label": "coal exports in 2021, % of 2019",
+   "page": "coal",
+   "reference": 44.0
+  }
+ ],
+ "revisions": {
+  "bom": 0,
+  "fred": 0,
+  "imf_datamapper": 0,
+  "imf_sdmx": 0,
+  "nso": 0,
+  "pinksheet": 0,
+  "wdi": 0
+ },
+ "schema_version": 1,
+ "sources": [
+  {
+   "id": "bom",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-09-27",
+   "status": "ok"
+  },
+  {
+   "id": "nso",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "status": "ok"
+  },
+  {
+   "id": "pinksheet",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "status": "ok"
+  },
+  {
+   "id": "imf_sdmx",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "status": "ok"
+  },
+  {
+   "id": "imf_datamapper",
+   "last_changed": "2026-09-28",
+   "last_obs": "2031",
+   "status": "ok"
+  },
+  {
+   "id": "wdi",
+   "last_changed": "2026-09-28",
+   "last_obs": "2025",
+   "status": "ok"
+  },
+  {
+   "id": "fred",
+   "last_changed": "2026-09-28",
+   "last_obs": "2026-08",
+   "status": "ok"
+  }
+ ],
+ "stale": [],
+ "through": {
+  "commodities": "2026-08",
+  "cpi": "2026-08",
+  "fx": "2026-08",
+  "gdp": "2025",
+  "policy_rate": "2026-09-17",
+  "trade": "2026-08",
+  "weo_vintage": "April 2026"
+ },
+ "versions": {
+  "pipeline": "0.1.0",
+  "sandwich": "0.2.0"
+ }
+}
