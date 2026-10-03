@@ -2,7 +2,7 @@
  "cards": [
   {
    "page": "copper",
-   "takeaway": "A 10% fall in the copper price has been followed by a 2.3% weaker tugrik over the next 12 months (95% CI 1.1–3.4%, 2001–2026). Since 2017 it arrives after month 3: of the 2.0% (95% CI 1.1–3.0%), 0.2% comes in months 0–3. World coal prices show no such effect (+0.06, the wrong sign).",
+   "takeaway": "A 10% fall in the copper price has been followed by a 2.3% weaker tugrik over the next 12 months (95% CI 1.1–3.4%, 2001–2026). Since 2017 it arrives after month 3: of the 2.1% (95% CI 1.1–3.0%), 0.2% comes in months 0–3. World coal prices show no such effect (+0.06, the wrong sign).",
    "title": "copper and the tugrik"
   },
   {
@@ -24,18 +24,17 @@
  "tiles": [
   {
    "change": {
-    "label": "vs Aug 2025",
+    "label": "vs Sep 2025",
     "unit": "%",
-    "value": 0.064718
+    "value": 0.045723
    },
    "detail": null,
    "id": "fx",
    "label": "MNT per US dollar, monthly average",
-   "period": "2026-08",
+   "period": "2026-09",
    "source": "derived",
    "spark": {
     "dates": [
-     "2023-09",
      "2023-10",
      "2023-11",
      "2023-12",
@@ -70,10 +69,10 @@
      "2026-05",
      "2026-06",
      "2026-07",
-     "2026-08"
+     "2026-08",
+     "2026-09"
     ],
     "values": [
-     3466.077143,
      3452.472273,
      3440.642857,
      3421.2075,
@@ -108,12 +107,13 @@
      3576.064286,
      3576.65,
      3586.77,
-     3594.465714
+     3594.465714,
+     3595.44
     ]
    },
    "status": "ok",
    "unit": "MNT per USD",
-   "value": 3594.465714
+   "value": 3595.44
   },
   {
    "change": {
@@ -221,7 +221,6 @@
    "source": "bom",
    "spark": {
     "dates": [
-     "2023-09",
      "2023-10",
      "2023-11",
      "2023-12",
@@ -256,7 +255,8 @@
      "2026-05",
      "2026-06",
      "2026-07",
-     "2026-08"
+     "2026-08",
+     "2026-09"
     ],
     "values": [
      13.0,
@@ -264,7 +264,6 @@
      13.0,
      13.0,
      13.0,
-     13.0,
      12.0,
      12.0,
      11.0,
@@ -294,6 +293,7 @@
      12.0,
      12.0,
      12.0,
+     12.5,
      12.5
     ]
    },
@@ -303,18 +303,17 @@
   },
   {
    "change": {
-    "label": "vs Aug 2025",
+    "label": "vs Sep 2025",
     "unit": "%",
-    "value": 48.148914
+    "value": 44.971955
    },
    "detail": null,
    "id": "copper",
    "label": "Copper, LME",
-   "period": "2026-08",
+   "period": "2026-09",
    "source": "pinksheet",
    "spark": {
     "dates": [
-     "2023-09",
      "2023-10",
      "2023-11",
      "2023-12",
@@ -349,10 +348,10 @@
      "2026-05",
      "2026-06",
      "2026-07",
-     "2026-08"
+     "2026-08",
+     "2026-09"
     ],
     "values": [
-     8277.0,
      7937.0,
      8190.0,
      8400.0,
@@ -387,12 +386,13 @@
      13543.0,
      13552.0,
      13543.0,
-     14326.0
+     14326.0,
+     14474.0
     ]
    },
    "status": "ok",
    "unit": "USD per tonne",
-   "value": 14326.0
+   "value": 14474.0
   },
   {
    "change": {

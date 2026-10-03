@@ -1,22 +1,22 @@
 {
- "generated_at": "2026-09-29",
+ "generated_at": "2026-10-03",
  "reference": [
   {
-   "current": -0.225941,
+   "current": -0.226185,
    "id": "copper_h12",
    "label": "copper, 12-month sum, 2001 to now",
    "page": "copper",
    "reference": -0.226
   },
   {
-   "current": 0.059264,
+   "current": 0.05919,
    "id": "copper_h12_se",
    "label": "its standard error",
    "page": "copper",
    "reference": 0.059
   },
   {
-   "current": -0.023515,
+   "current": -0.023463,
    "id": "copper_h3_post2017",
    "label": "copper, months 0-3, 2017 to now",
    "page": "copper",
@@ -78,8 +78,8 @@
  "sources": [
   {
    "id": "bom",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-09-27",
+   "last_changed": "2026-10-03",
+   "last_obs": "2026-10-04",
    "status": "ok"
   },
   {
@@ -90,8 +90,8 @@
   },
   {
    "id": "pinksheet",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
+   "last_changed": "2026-10-03",
+   "last_obs": "2026-09",
    "status": "ok"
   },
   {
@@ -114,16 +114,16 @@
   },
   {
    "id": "fred",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
+   "last_changed": "2026-10-03",
+   "last_obs": "2026-09",
    "status": "ok"
   }
  ],
  "stale": [],
  "through": {
-  "commodities": "2026-08",
+  "commodities": "2026-09",
   "cpi": "2026-08",
-  "fx": "2026-08",
+  "fx": "2026-09",
   "gdp": "2025",
   "policy_rate": "2026-09-17",
   "trade": "2026-08",

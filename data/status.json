@@ -16,30 +16,30 @@
   },
   "bom_usdmnt_daily": {
    "first": "2001-01-02",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-09-27",
-   "rows": 8502,
+   "last_changed": "2026-10-03",
+   "last_obs": "2026-10-04",
+   "rows": 8509,
    "source": "bom"
   },
   "bom_usdmnt_monthly_avg": {
    "first": "1993-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 404,
+   "last_changed": "2026-10-03",
+   "last_obs": "2026-09",
+   "rows": 405,
    "source": "bom"
   },
   "fred_cnyusd_monthly_avg": {
    "first": "1981-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 548,
+   "last_changed": "2026-10-03",
+   "last_obs": "2026-09",
+   "rows": 549,
    "source": "fred"
   },
   "fred_usd_broad_index": {
    "first": "2006-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 248,
+   "last_changed": "2026-10-03",
+   "last_obs": "2026-09",
+   "rows": 249,
    "source": "fred"
   },
   "imf_cnyusd_monthly_avg": {
@@ -282,44 +282,44 @@
   },
   "pinksheet_brent": {
    "first": "1960-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 800,
+   "last_changed": "2026-10-03",
+   "last_obs": "2026-09",
+   "rows": 801,
    "source": "pinksheet"
   },
   "pinksheet_coal_australian": {
    "first": "1970-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 680,
+   "last_changed": "2026-10-03",
+   "last_obs": "2026-09",
+   "rows": 681,
    "source": "pinksheet"
   },
   "pinksheet_copper": {
    "first": "1960-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 800,
+   "last_changed": "2026-10-03",
+   "last_obs": "2026-09",
+   "rows": 801,
    "source": "pinksheet"
   },
   "pinksheet_gold": {
    "first": "1960-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 800,
+   "last_changed": "2026-10-03",
+   "last_obs": "2026-09",
+   "rows": 801,
    "source": "pinksheet"
   },
   "pinksheet_iron_ore": {
    "first": "1960-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 800,
+   "last_changed": "2026-10-03",
+   "last_obs": "2026-09",
+   "rows": 801,
    "source": "pinksheet"
   },
   "pinksheet_zinc": {
    "first": "1960-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 800,
+   "last_changed": "2026-10-03",
+   "last_obs": "2026-09",
+   "rows": 801,
    "source": "pinksheet"
   },
   "wdi_china_gdp_growth": {
@@ -355,16 +355,16 @@
   "bom": {
    "error": null,
    "info": {},
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-09-27",
+   "last_changed": "2026-10-03",
+   "last_obs": "2026-10-04",
    "revisions": 0,
    "status": "ok"
   },
   "fred": {
    "error": null,
    "info": {},
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
+   "last_changed": "2026-10-03",
+   "last_obs": "2026-09",
    "revisions": 0,
    "status": "ok"
   },
@@ -397,11 +397,11 @@
   "pinksheet": {
    "error": null,
    "info": {
-    "updated_on": "2026-09-02",
+    "updated_on": "2026-10-02",
     "url": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx"
    },
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
+   "last_changed": "2026-10-03",
+   "last_obs": "2026-09",
    "revisions": 0,
    "status": "ok"
   },

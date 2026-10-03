@@ -14,7 +14,7 @@
     "first": "2001-01-02",
     "id": "bom_usdmnt_daily",
     "label": "MNT per US dollar, official daily rate",
-    "last": "2026-09-27",
+    "last": "2026-10-04",
     "status": "ok",
     "units": "MNT per USD"
    },
@@ -23,7 +23,7 @@
     "first": "1993-01",
     "id": "bom_usdmnt_monthly_avg",
     "label": "MNT per US dollar, monthly average (BoM)",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "MNT per USD"
    },
@@ -265,7 +265,7 @@
     "first": "1960-01",
     "id": "pinksheet_copper",
     "label": "Copper, LME grade A",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "USD per tonne"
    },
@@ -274,7 +274,7 @@
     "first": "1970-01",
     "id": "pinksheet_coal_australian",
     "label": "Coal, Australian thermal",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "USD per tonne"
    },
@@ -283,7 +283,7 @@
     "first": "1960-01",
     "id": "pinksheet_gold",
     "label": "Gold",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "USD per troy ounce"
    },
@@ -292,7 +292,7 @@
     "first": "1960-01",
     "id": "pinksheet_iron_ore",
     "label": "Iron ore, cfr spot",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "USD per dry metric ton unit"
    },
@@ -301,7 +301,7 @@
     "first": "1960-01",
     "id": "pinksheet_brent",
     "label": "Crude oil, Brent",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "USD per barrel"
    },
@@ -310,7 +310,7 @@
     "first": "1960-01",
     "id": "pinksheet_zinc",
     "label": "Zinc",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "USD per tonne"
    }
@@ -524,7 +524,7 @@
     "first": "2006-01",
     "id": "fred_usd_broad_index",
     "label": "Nominal broad US dollar index (TWEXBGSMTH)",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "index, January 2006 = 100"
    },
@@ -533,7 +533,7 @@
     "first": "1981-01",
     "id": "fred_cnyusd_monthly_avg",
     "label": "CNY per US dollar, monthly average (EXCHUS)",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "CNY per USD"
    },
@@ -631,7 +631,7 @@
     "first": "1981-01",
     "id": "derived_cnyusd_monthly_avg",
     "label": "CNY per US dollar, monthly average",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "CNY per USD"
    },
@@ -730,7 +730,7 @@
     "first": "1973-01",
     "id": "derived_usd_broad_index",
     "label": "Broad US dollar index, TWEXBMTH spliced to TWEXBGSMTH",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "index, January 2006 = 100"
    },
@@ -739,7 +739,7 @@
     "first": "1990-07",
     "id": "derived_usdmnt_monthly_avg",
     "label": "MNT per US dollar, monthly average (consensus of BoM, NSO and IMF)",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "MNT per USD"
    }
