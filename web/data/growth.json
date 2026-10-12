@@ -659,9 +659,9 @@
   {
    "copper_pct": 8.810071,
    "cpi_pct": 8.6,
-   "current_account_pct_gdp": null,
+   "current_account_pct_gdp": -8.356448,
    "exports_usd_bn": 15.76115,
-   "fdi_pct_gdp": null,
+   "fdi_pct_gdp": 10.821079,
    "fx_dec_dec_pct": 3.840095,
    "gdp_growth_pct": 6.843914,
    "gov_debt_pct_gdp": 45.1,

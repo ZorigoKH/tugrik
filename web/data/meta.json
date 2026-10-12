@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03",
+ "generated_at": "2026-10-12",
  "reference": [
   {
    "current": -0.226185,
@@ -66,11 +66,11 @@
   }
  ],
  "revisions": {
-  "bom": 0,
+  "bom": 1,
   "fred": 0,
   "imf_datamapper": 0,
-  "imf_sdmx": 0,
-  "nso": 0,
+  "imf_sdmx": 2,
+  "nso": 8,
   "pinksheet": 0,
   "wdi": 0
  },
@@ -78,14 +78,14 @@
  "sources": [
   {
    "id": "bom",
-   "last_changed": "2026-10-03",
-   "last_obs": "2026-10-04",
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-10-12",
    "status": "ok"
   },
   {
    "id": "nso",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
    "status": "ok"
   },
   {
@@ -96,8 +96,8 @@
   },
   {
    "id": "imf_sdmx",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
    "status": "ok"
   },
   {
@@ -108,7 +108,7 @@
   },
   {
    "id": "wdi",
-   "last_changed": "2026-09-28",
+   "last_changed": "2026-10-12",
    "last_obs": "2025",
    "status": "ok"
   },
@@ -126,7 +126,7 @@
   "fx": "2026-09",
   "gdp": "2025",
   "policy_rate": "2026-09-17",
-  "trade": "2026-08",
+  "trade": "2026-09",
   "weo_vintage": "April 2026"
  },
  "versions": {

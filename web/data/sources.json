@@ -14,7 +14,7 @@
     "first": "2001-01-02",
     "id": "bom_usdmnt_daily",
     "label": "MNT per US dollar, official daily rate",
-    "last": "2026-10-04",
+    "last": "2026-10-12",
     "status": "ok",
     "units": "MNT per USD"
    },
@@ -41,7 +41,7 @@
     "first": "2009-09",
     "id": "bom_cpi_yoy",
     "label": "CPI inflation as reported by the BoM, national, year on year",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "percent"
    }
@@ -135,7 +135,7 @@
     "first": "1997-01",
     "id": "nso_exports_total_musd",
     "label": "Exports, total",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "million USD"
    },
@@ -144,7 +144,7 @@
     "first": "2011-01",
     "id": "nso_export_coal_kusd",
     "label": "Exports of coal, value",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "thousand USD"
    },
@@ -153,7 +153,7 @@
     "first": "2011-01",
     "id": "nso_export_coal_kt",
     "label": "Exports of coal, volume",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "thousand tonnes"
    },
@@ -162,7 +162,7 @@
     "first": "2011-01",
     "id": "nso_export_copper_conc_kusd",
     "label": "Exports of copper concentrate, value",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "thousand USD"
    },
@@ -171,7 +171,7 @@
     "first": "2011-01",
     "id": "nso_export_copper_conc_kt",
     "label": "Exports of copper concentrate, volume",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "thousand tonnes"
    },
@@ -180,7 +180,7 @@
     "first": "2011-01",
     "id": "nso_export_gold_kusd",
     "label": "Exports of gold, value",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "thousand USD"
    },
@@ -189,7 +189,7 @@
     "first": "2011-01",
     "id": "nso_export_gold_t",
     "label": "Exports of gold, volume",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "tonnes"
    },
@@ -198,7 +198,7 @@
     "first": "2011-01",
     "id": "nso_export_iron_ore_kusd",
     "label": "Exports of iron ore, value",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "thousand USD"
    },
@@ -207,7 +207,7 @@
     "first": "2011-01",
     "id": "nso_export_iron_ore_kt",
     "label": "Exports of iron ore, volume",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "thousand tonnes"
    },
@@ -216,7 +216,7 @@
     "first": "2011-01",
     "id": "nso_export_crude_oil_kusd",
     "label": "Exports of crude oil, value",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "thousand USD"
    },
@@ -225,7 +225,7 @@
     "first": "2011-01",
     "id": "nso_export_crude_oil_kbbl",
     "label": "Exports of crude oil, volume",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "thousand barrels"
    },
@@ -234,7 +234,7 @@
     "first": "2011-01",
     "id": "nso_export_zinc_conc_kusd",
     "label": "Exports of zinc concentrate, value",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "thousand USD"
    },
@@ -243,7 +243,7 @@
     "first": "2011-01",
     "id": "nso_export_zinc_conc_kt",
     "label": "Exports of zinc concentrate, volume",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "thousand tonnes"
    }
@@ -368,7 +368,7 @@
     "first": "1992-01",
     "id": "imf_pcps_copper",
     "label": "Copper (IMF PCPS)",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "USD per tonne"
    },
@@ -377,7 +377,7 @@
     "first": "1992-01",
     "id": "imf_pcps_gold",
     "label": "Gold (IMF PCPS)",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "USD per troy ounce"
    },
@@ -386,7 +386,7 @@
     "first": "1992-01",
     "id": "imf_pcps_zinc",
     "label": "Zinc (IMF PCPS)",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "USD per tonne"
    },
@@ -484,7 +484,7 @@
     "first": "1981",
     "id": "wdi_fdi_pct_gdp",
     "label": "Foreign direct investment, net inflows (WDI)",
-    "last": "2024",
+    "last": "2025",
     "status": "ok",
     "units": "percent of GDP"
    },
@@ -493,7 +493,7 @@
     "first": "1981",
     "id": "wdi_current_account_pct_gdp",
     "label": "Current account balance (WDI)",
-    "last": "2024",
+    "last": "2025",
     "status": "ok",
     "units": "percent of GDP"
    },
@@ -640,7 +640,7 @@
     "first": "2011-01",
     "id": "derived_coal_unit_value_usd_t",
     "label": "Coal exports, value per tonne",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "USD per tonne"
    },

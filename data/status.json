@@ -2,9 +2,9 @@
  "series": {
   "bom_cpi_yoy": {
    "first": "2009-09",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 204,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "rows": 205,
    "source": "bom"
   },
   "bom_policy_rate_decisions": {
@@ -16,9 +16,9 @@
   },
   "bom_usdmnt_daily": {
    "first": "2001-01-02",
-   "last_changed": "2026-10-03",
-   "last_obs": "2026-10-04",
-   "rows": 8509,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-10-12",
+   "rows": 8517,
    "source": "bom"
   },
   "bom_usdmnt_monthly_avg": {
@@ -65,23 +65,23 @@
   },
   "imf_pcps_copper": {
    "first": "1992-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 416,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "rows": 417,
    "source": "imf_sdmx"
   },
   "imf_pcps_gold": {
    "first": "1992-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 416,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "rows": 417,
    "source": "imf_sdmx"
   },
   "imf_pcps_zinc": {
    "first": "1992-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 416,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "rows": 417,
    "source": "imf_sdmx"
   },
   "imf_usdmnt_eop": {
@@ -170,100 +170,100 @@
   },
   "nso_cpi_yoy_b2023": {
    "first": "2024-01",
-   "last_changed": "2026-09-28",
+   "last_changed": "2026-10-12",
    "last_obs": "2026-08",
    "rows": 32,
    "source": "nso"
   },
   "nso_export_coal_kt": {
    "first": "2011-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 188,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "rows": 189,
    "source": "nso"
   },
   "nso_export_coal_kusd": {
    "first": "2011-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 188,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "rows": 189,
    "source": "nso"
   },
   "nso_export_copper_conc_kt": {
    "first": "2011-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 188,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "rows": 189,
    "source": "nso"
   },
   "nso_export_copper_conc_kusd": {
    "first": "2011-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 188,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "rows": 189,
    "source": "nso"
   },
   "nso_export_crude_oil_kbbl": {
    "first": "2011-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 188,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "rows": 189,
    "source": "nso"
   },
   "nso_export_crude_oil_kusd": {
    "first": "2011-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 188,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "rows": 189,
    "source": "nso"
   },
   "nso_export_gold_kusd": {
    "first": "2011-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 188,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "rows": 189,
    "source": "nso"
   },
   "nso_export_gold_t": {
    "first": "2011-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 188,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "rows": 189,
    "source": "nso"
   },
   "nso_export_iron_ore_kt": {
    "first": "2011-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 188,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "rows": 189,
    "source": "nso"
   },
   "nso_export_iron_ore_kusd": {
    "first": "2011-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 188,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "rows": 189,
    "source": "nso"
   },
   "nso_export_zinc_conc_kt": {
    "first": "2011-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 188,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "rows": 189,
    "source": "nso"
   },
   "nso_export_zinc_conc_kusd": {
    "first": "2011-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 188,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "rows": 189,
    "source": "nso"
   },
   "nso_exports_total_musd": {
    "first": "1997-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 356,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "rows": 357,
    "source": "nso"
   },
   "nso_usdmnt_eop": {
@@ -331,16 +331,16 @@
   },
   "wdi_current_account_pct_gdp": {
    "first": "1981",
-   "last_changed": "2026-09-28",
-   "last_obs": "2024",
-   "rows": 44,
+   "last_changed": "2026-10-12",
+   "last_obs": "2025",
+   "rows": 45,
    "source": "wdi"
   },
   "wdi_fdi_pct_gdp": {
    "first": "1981",
-   "last_changed": "2026-09-28",
-   "last_obs": "2024",
-   "rows": 42,
+   "last_changed": "2026-10-12",
+   "last_obs": "2025",
+   "rows": 43,
    "source": "wdi"
   },
   "wdi_gdp_growth": {
@@ -355,9 +355,9 @@
   "bom": {
    "error": null,
    "info": {},
-   "last_changed": "2026-10-03",
-   "last_obs": "2026-10-04",
-   "revisions": 0,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-10-12",
+   "revisions": 1,
    "status": "ok"
   },
   "fred": {
@@ -381,17 +381,17 @@
   "imf_sdmx": {
    "error": null,
    "info": {},
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "revisions": 0,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "revisions": 2,
    "status": "ok"
   },
   "nso": {
    "error": null,
    "info": {},
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "revisions": 0,
+   "last_changed": "2026-10-12",
+   "last_obs": "2026-09",
+   "revisions": 8,
    "status": "ok"
   },
   "pinksheet": {
@@ -408,7 +408,7 @@
   "wdi": {
    "error": null,
    "info": {},
-   "last_changed": "2026-09-28",
+   "last_changed": "2026-10-12",
    "last_obs": "2025",
    "revisions": 0,
    "status": "ok"

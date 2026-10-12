@@ -119,7 +119,7 @@
    "change": {
     "label": "vs Aug 2025",
     "unit": "pp",
-    "value": 3.7
+    "value": 3.6
    },
    "detail": null,
    "id": "cpi",
@@ -201,12 +201,12 @@
      11.2,
      12.0,
      13.0,
-     12.5
+     12.4
     ]
    },
    "status": "ok",
    "unit": "%",
-   "value": 12.5
+   "value": 12.4
   },
   {
    "change": {
@@ -396,22 +396,21 @@
   },
   {
    "change": {
-    "label": "vs Aug 2025",
+    "label": "vs Sep 2025",
     "unit": "%",
-    "value": 10.624819
+    "value": -13.188622
    },
    "detail": {
     "label": "unit value",
     "unit": "USD per tonne",
-    "value": 75.481933
+    "value": 80.339446
    },
    "id": "coal",
    "label": "Coal exports",
-   "period": "2026-08",
+   "period": "2026-09",
    "source": "nso",
    "spark": {
     "dates": [
-     "2023-09",
      "2023-10",
      "2023-11",
      "2023-12",
@@ -446,10 +445,10 @@
      "2026-05",
      "2026-06",
      "2026-07",
-     "2026-08"
+     "2026-08",
+     "2026-09"
     ],
     "values": [
-     6.28849,
      5.4694,
      7.9529,
      7.26097,
@@ -483,13 +482,14 @@
      11.53979,
      9.83784,
      10.30517,
-     9.12843,
-     9.423
+     9.12829,
+     9.41969,
+     8.40888
     ]
    },
    "status": "ok",
    "unit": "million tonnes",
-   "value": 9.423
+   "value": 8.40888
   },
   {
    "change": null,

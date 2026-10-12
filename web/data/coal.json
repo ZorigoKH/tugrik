@@ -196,16 +196,16 @@
    "year": "2025"
   },
   {
-   "benchmark_usd_t": 130.025,
+   "benchmark_usd_t": 131.922222,
    "dlog_unit_value": null,
    "dlog_value": null,
    "dlog_volume": null,
    "partial": true,
-   "through": "2026-08",
-   "unit_value_usd_t": 69.886642,
-   "value_musd": 5434.83535,
-   "volume_mt": 77.76644,
-   "volume_vs_2019_pct": 310.709438,
+   "through": "2026-09",
+   "unit_value_usd_t": 70.850197,
+   "value_musd": 6105.29398,
+   "volume_mt": 86.17187,
+   "volume_vs_2019_pct": 299.801551,
    "year": "2026"
   }
  ],
@@ -330,7 +330,8 @@
    136.9,
    138.5,
    131.9,
-   135.2
+   135.2,
+   147.1
   ],
   "months": [
    "2017-01",
@@ -448,7 +449,8 @@
    "2026-05",
    "2026-06",
    "2026-07",
-   "2026-08"
+   "2026-08",
+   "2026-09"
   ],
   "unit_value_usd_t": [
    64.347001,
@@ -565,8 +567,9 @@
    66.882898,
    70.621154,
    73.157873,
-   77.564174,
-   75.481933
+   77.564056,
+   74.967653,
+   80.339446
   ],
   "volume_mt": [
    2.63051,
@@ -683,11 +686,12 @@
    11.53979,
    9.83784,
    10.30517,
-   9.12843,
-   9.423
+   9.12829,
+   9.41969,
+   8.40888
   ]
  },
  "schema_version": 1,
  "takeaway": "Coal income followed the Chinese border: shipments fell to 44% of their 2019 tonnage in 2021 and reached 246% in 2025, while Mongolia's price per tonne went from 172 to 64 USD/t.",
- "takeaway_gap": "Mongolia's coal fetched $75/t in Aug 2026 against $135 for the Australian benchmark. Since 2017 it has sold for between 36% and 232% of the benchmark, so world coal prices say little about what Mongolia earns."
+ "takeaway_gap": "Mongolia's coal fetched $80/t in Sep 2026 against $147 for the Australian benchmark. Since 2017 it has sold for between 36% and 232% of the benchmark, so world coal prices say little about what Mongolia earns."
 }
