@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12",
+ "generated_at": "2026-10-20",
  "reference": [
   {
    "current": -0.226185,
@@ -23,14 +23,14 @@
    "reference": -0.024
   },
   {
-   "current": 0.129709,
+   "current": 0.129776,
    "id": "passthrough_h12",
    "label": "pass-through at 12 months (B3)",
    "page": "prices",
    "reference": 0.13
   },
   {
-   "current": 0.215408,
+   "current": 0.216094,
    "id": "passthrough_long_run",
    "label": "pass-through, long run (B3)",
    "page": "prices",
@@ -66,11 +66,11 @@
   }
  ],
  "revisions": {
-  "bom": 1,
+  "bom": 0,
   "fred": 0,
-  "imf_datamapper": 0,
-  "imf_sdmx": 2,
-  "nso": 8,
+  "imf_datamapper": 25,
+  "imf_sdmx": 0,
+  "nso": 0,
   "pinksheet": 0,
   "wdi": 0
  },
@@ -78,13 +78,13 @@
  "sources": [
   {
    "id": "bom",
-   "last_changed": "2026-10-12",
-   "last_obs": "2026-10-12",
+   "last_changed": "2026-10-20",
+   "last_obs": "2026-10-19",
    "status": "ok"
   },
   {
    "id": "nso",
-   "last_changed": "2026-10-12",
+   "last_changed": "2026-10-20",
    "last_obs": "2026-09",
    "status": "ok"
   },
@@ -96,13 +96,13 @@
   },
   {
    "id": "imf_sdmx",
-   "last_changed": "2026-10-12",
+   "last_changed": "2026-10-20",
    "last_obs": "2026-09",
    "status": "ok"
   },
   {
    "id": "imf_datamapper",
-   "last_changed": "2026-09-28",
+   "last_changed": "2026-10-20",
    "last_obs": "2031",
    "status": "ok"
   },
@@ -122,12 +122,12 @@
  "stale": [],
  "through": {
   "commodities": "2026-09",
-  "cpi": "2026-08",
+  "cpi": "2026-09",
   "fx": "2026-09",
   "gdp": "2025",
   "policy_rate": "2026-09-17",
   "trade": "2026-09",
-  "weo_vintage": "April 2026"
+  "weo_vintage": "October 2026"
  },
  "versions": {
   "pipeline": "0.1.0",

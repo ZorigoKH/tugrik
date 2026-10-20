@@ -664,7 +664,7 @@
    "fdi_pct_gdp": 10.821079,
    "fx_dec_dec_pct": 3.840095,
    "gdp_growth_pct": 6.843914,
-   "gov_debt_pct_gdp": 45.1,
+   "gov_debt_pct_gdp": 45.0,
    "policy_rate_dec_pct": 12.0,
    "year": "2025"
   }
@@ -788,17 +788,17 @@
  "schema_version": 1,
  "takeaway": "A 10% rise in Mongolia's export prices has been followed by about 0.85 pp faster growth the next year (29 years; t = 3.7 with HAC, p = 0.016 without — treat as descriptive).",
  "takeaway_mix": "Coal went from none of these exports in 1996 to 67% in 2023; in 2025, copper and coal split them 42/41.",
- "takeaway_weo": "The IMF expects 5.3% in 2026 and about 5% a year after that.",
+ "takeaway_weo": "The IMF expects 6.2% in 2026 and about 5% a year after that.",
  "weo": {
   "gdp_growth_pct": [
-   5.3,
-   5.3,
-   5.2,
-   5.0,
+   6.2,
+   5.9,
+   5.6,
+   5.1,
    5.0,
    5.0
   ],
-  "vintage": "April 2026",
+  "vintage": "October 2026",
   "years": [
    "2026",
    "2027",

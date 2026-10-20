@@ -16,9 +16,9 @@
   },
   "bom_usdmnt_daily": {
    "first": "2001-01-02",
-   "last_changed": "2026-10-12",
-   "last_obs": "2026-10-12",
-   "rows": 8517,
+   "last_changed": "2026-10-20",
+   "last_obs": "2026-10-19",
+   "rows": 8524,
    "source": "bom"
   },
   "bom_usdmnt_monthly_avg": {
@@ -51,16 +51,16 @@
   },
   "imf_cpi_mom": {
    "first": "2006-02",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 247,
+   "last_changed": "2026-10-20",
+   "last_obs": "2026-09",
+   "rows": 248,
    "source": "imf_sdmx"
   },
   "imf_cpi_yoy": {
    "first": "2007-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 236,
+   "last_changed": "2026-10-20",
+   "last_obs": "2026-09",
+   "rows": 237,
    "source": "imf_sdmx"
   },
   "imf_pcps_copper": {
@@ -100,35 +100,35 @@
   },
   "imf_weo_china_gdp_growth": {
    "first": "1980",
-   "last_changed": "2026-09-28",
+   "last_changed": "2026-10-20",
    "last_obs": "2031",
    "rows": 52,
    "source": "imf_datamapper"
   },
   "imf_weo_cpi_inflation": {
    "first": "1991",
-   "last_changed": "2026-09-28",
+   "last_changed": "2026-10-20",
    "last_obs": "2031",
    "rows": 41,
    "source": "imf_datamapper"
   },
   "imf_weo_current_account_pct_gdp": {
    "first": "1991",
-   "last_changed": "2026-09-28",
+   "last_changed": "2026-10-20",
    "last_obs": "2031",
    "rows": 41,
    "source": "imf_datamapper"
   },
   "imf_weo_gdp_growth": {
    "first": "1980",
-   "last_changed": "2026-09-28",
+   "last_changed": "2026-10-20",
    "last_obs": "2031",
    "rows": 52,
    "source": "imf_datamapper"
   },
   "imf_weo_gov_debt_pct_gdp": {
    "first": "2006",
-   "last_changed": "2026-09-28",
+   "last_changed": "2026-10-20",
    "last_obs": "2031",
    "rows": 26,
    "source": "imf_datamapper"
@@ -142,16 +142,16 @@
   },
   "nso_cpi_mom_b2020": {
    "first": "2020-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 80,
+   "last_changed": "2026-10-20",
+   "last_obs": "2026-09",
+   "rows": 81,
    "source": "nso"
   },
   "nso_cpi_mom_b2023": {
    "first": "2023-02",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 43,
+   "last_changed": "2026-10-20",
+   "last_obs": "2026-09",
+   "rows": 44,
    "source": "nso"
   },
   "nso_cpi_yoy_b2015": {
@@ -163,16 +163,16 @@
   },
   "nso_cpi_yoy_b2020": {
    "first": "2020-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 80,
+   "last_changed": "2026-10-20",
+   "last_obs": "2026-09",
+   "rows": 81,
    "source": "nso"
   },
   "nso_cpi_yoy_b2023": {
    "first": "2024-01",
-   "last_changed": "2026-10-12",
-   "last_obs": "2026-08",
-   "rows": 32,
+   "last_changed": "2026-10-20",
+   "last_obs": "2026-09",
+   "rows": 33,
    "source": "nso"
   },
   "nso_export_coal_kt": {
@@ -268,16 +268,16 @@
   },
   "nso_usdmnt_eop": {
    "first": "2006-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 248,
+   "last_changed": "2026-10-20",
+   "last_obs": "2026-09",
+   "rows": 249,
    "source": "nso"
   },
   "nso_usdmnt_monthly_avg": {
    "first": "1994-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 392,
+   "last_changed": "2026-10-20",
+   "last_obs": "2026-09",
+   "rows": 393,
    "source": "nso"
   },
   "pinksheet_brent": {
@@ -355,9 +355,9 @@
   "bom": {
    "error": null,
    "info": {},
-   "last_changed": "2026-10-12",
-   "last_obs": "2026-10-12",
-   "revisions": 1,
+   "last_changed": "2026-10-20",
+   "last_obs": "2026-10-19",
+   "revisions": 0,
    "status": "ok"
   },
   "fred": {
@@ -371,27 +371,27 @@
   "imf_datamapper": {
    "error": null,
    "info": {
-    "weo_vintage": "April 2026"
+    "weo_vintage": "October 2026"
    },
-   "last_changed": "2026-09-28",
+   "last_changed": "2026-10-20",
    "last_obs": "2031",
-   "revisions": 0,
+   "revisions": 25,
    "status": "ok"
   },
   "imf_sdmx": {
    "error": null,
    "info": {},
-   "last_changed": "2026-10-12",
+   "last_changed": "2026-10-20",
    "last_obs": "2026-09",
-   "revisions": 2,
+   "revisions": 0,
    "status": "ok"
   },
   "nso": {
    "error": null,
    "info": {},
-   "last_changed": "2026-10-12",
+   "last_changed": "2026-10-20",
    "last_obs": "2026-09",
-   "revisions": 8,
+   "revisions": 0,
    "status": "ok"
   },
   "pinksheet": {
