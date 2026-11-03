@@ -14,7 +14,7 @@
     "first": "2001-01-02",
     "id": "bom_usdmnt_daily",
     "label": "MNT per US dollar, official daily rate",
-    "last": "2026-10-19",
+    "last": "2026-11-03",
     "status": "ok",
     "units": "MNT per USD"
    },
@@ -23,7 +23,7 @@
     "first": "1993-01",
     "id": "bom_usdmnt_monthly_avg",
     "label": "MNT per US dollar, monthly average (BoM)",
-    "last": "2026-09",
+    "last": "2026-10",
     "status": "ok",
     "units": "MNT per USD"
    },
@@ -32,7 +32,7 @@
     "first": "2007-07-09",
     "id": "bom_policy_rate_decisions",
     "label": "Policy rate, by decision",
-    "last": "2026-09-17",
+    "last": "2026-11-03",
     "status": "ok",
     "units": "percent"
    },
@@ -332,7 +332,7 @@
     "first": "1990-07",
     "id": "imf_usdmnt_monthly_avg",
     "label": "MNT per US dollar, monthly average (IMF)",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "MNT per USD"
    },
@@ -341,7 +341,7 @@
     "first": "1990-07",
     "id": "imf_usdmnt_eop",
     "label": "MNT per US dollar, end of month (IMF)",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "MNT per USD"
    },
@@ -395,7 +395,7 @@
     "first": "1957-01",
     "id": "imf_cnyusd_monthly_avg",
     "label": "CNY per US dollar, monthly average (IMF)",
-    "last": "2026-08",
+    "last": "2026-09",
     "status": "ok",
     "units": "CNY per USD"
    }
@@ -524,7 +524,7 @@
     "first": "2006-01",
     "id": "fred_usd_broad_index",
     "label": "Nominal broad US dollar index (TWEXBGSMTH)",
-    "last": "2026-09",
+    "last": "2026-10",
     "status": "ok",
     "units": "index, January 2006 = 100"
    },
@@ -533,7 +533,7 @@
     "first": "1981-01",
     "id": "fred_cnyusd_monthly_avg",
     "label": "CNY per US dollar, monthly average (EXCHUS)",
-    "last": "2026-09",
+    "last": "2026-10",
     "status": "ok",
     "units": "CNY per USD"
    },
@@ -631,7 +631,7 @@
     "first": "1981-01",
     "id": "derived_cnyusd_monthly_avg",
     "label": "CNY per US dollar, monthly average",
-    "last": "2026-09",
+    "last": "2026-10",
     "status": "ok",
     "units": "CNY per USD"
    },
@@ -730,7 +730,7 @@
     "first": "1973-01",
     "id": "derived_usd_broad_index",
     "label": "Broad US dollar index, TWEXBMTH spliced to TWEXBGSMTH",
-    "last": "2026-09",
+    "last": "2026-10",
     "status": "ok",
     "units": "index, January 2006 = 100"
    },
@@ -739,7 +739,7 @@
     "first": "1990-07",
     "id": "derived_usdmnt_monthly_avg",
     "label": "MNT per US dollar, monthly average (consensus of BoM, NSO and IMF)",
-    "last": "2026-09",
+    "last": "2026-10",
     "status": "ok",
     "units": "MNT per USD"
    }

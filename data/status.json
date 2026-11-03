@@ -9,44 +9,44 @@
   },
   "bom_policy_rate_decisions": {
    "first": "2007-07-09",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-09-17",
-   "rows": 62,
+   "last_changed": "2026-11-03",
+   "last_obs": "2026-11-03",
+   "rows": 63,
    "source": "bom"
   },
   "bom_usdmnt_daily": {
    "first": "2001-01-02",
-   "last_changed": "2026-10-20",
-   "last_obs": "2026-10-19",
-   "rows": 8524,
+   "last_changed": "2026-11-03",
+   "last_obs": "2026-11-03",
+   "rows": 8539,
    "source": "bom"
   },
   "bom_usdmnt_monthly_avg": {
    "first": "1993-01",
-   "last_changed": "2026-10-03",
-   "last_obs": "2026-09",
-   "rows": 405,
+   "last_changed": "2026-11-03",
+   "last_obs": "2026-10",
+   "rows": 406,
    "source": "bom"
   },
   "fred_cnyusd_monthly_avg": {
    "first": "1981-01",
-   "last_changed": "2026-10-03",
-   "last_obs": "2026-09",
-   "rows": 549,
+   "last_changed": "2026-11-03",
+   "last_obs": "2026-10",
+   "rows": 550,
    "source": "fred"
   },
   "fred_usd_broad_index": {
    "first": "2006-01",
-   "last_changed": "2026-10-03",
-   "last_obs": "2026-09",
-   "rows": 249,
+   "last_changed": "2026-11-03",
+   "last_obs": "2026-10",
+   "rows": 250,
    "source": "fred"
   },
   "imf_cnyusd_monthly_avg": {
    "first": "1957-01",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 836,
+   "last_changed": "2026-11-03",
+   "last_obs": "2026-09",
+   "rows": 837,
    "source": "imf_sdmx"
   },
   "imf_cpi_mom": {
@@ -86,16 +86,16 @@
   },
   "imf_usdmnt_eop": {
    "first": "1990-07",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 434,
+   "last_changed": "2026-11-03",
+   "last_obs": "2026-09",
+   "rows": 435,
    "source": "imf_sdmx"
   },
   "imf_usdmnt_monthly_avg": {
    "first": "1990-07",
-   "last_changed": "2026-09-28",
-   "last_obs": "2026-08",
-   "rows": 434,
+   "last_changed": "2026-11-03",
+   "last_obs": "2026-09",
+   "rows": 435,
    "source": "imf_sdmx"
   },
   "imf_weo_china_gdp_growth": {
@@ -355,16 +355,16 @@
   "bom": {
    "error": null,
    "info": {},
-   "last_changed": "2026-10-20",
-   "last_obs": "2026-10-19",
+   "last_changed": "2026-11-03",
+   "last_obs": "2026-11-03",
    "revisions": 0,
    "status": "ok"
   },
   "fred": {
    "error": null,
    "info": {},
-   "last_changed": "2026-10-03",
-   "last_obs": "2026-09",
+   "last_changed": "2026-11-03",
+   "last_obs": "2026-10",
    "revisions": 0,
    "status": "ok"
   },
@@ -381,7 +381,7 @@
   "imf_sdmx": {
    "error": null,
    "info": {},
-   "last_changed": "2026-10-20",
+   "last_changed": "2026-11-03",
    "last_obs": "2026-09",
    "revisions": 0,
    "status": "ok"

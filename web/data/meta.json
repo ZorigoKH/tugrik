@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-20",
+ "generated_at": "2026-11-03",
  "reference": [
   {
-   "current": -0.226185,
+   "current": -0.226184,
    "id": "copper_h12",
    "label": "copper, 12-month sum, 2001 to now",
    "page": "copper",
@@ -78,8 +78,8 @@
  "sources": [
   {
    "id": "bom",
-   "last_changed": "2026-10-20",
-   "last_obs": "2026-10-19",
+   "last_changed": "2026-11-03",
+   "last_obs": "2026-11-03",
    "status": "ok"
   },
   {
@@ -96,7 +96,7 @@
   },
   {
    "id": "imf_sdmx",
-   "last_changed": "2026-10-20",
+   "last_changed": "2026-11-03",
    "last_obs": "2026-09",
    "status": "ok"
   },
@@ -114,8 +114,8 @@
   },
   {
    "id": "fred",
-   "last_changed": "2026-10-03",
-   "last_obs": "2026-09",
+   "last_changed": "2026-11-03",
+   "last_obs": "2026-10",
    "status": "ok"
   }
  ],
@@ -123,9 +123,9 @@
  "through": {
   "commodities": "2026-09",
   "cpi": "2026-09",
-  "fx": "2026-09",
+  "fx": "2026-10",
   "gdp": "2025",
-  "policy_rate": "2026-09-17",
+  "policy_rate": "2026-11-03",
   "trade": "2026-09",
   "weo_vintage": "October 2026"
  },
