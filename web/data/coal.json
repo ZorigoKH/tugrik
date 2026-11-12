@@ -196,16 +196,16 @@
    "year": "2025"
   },
   {
-   "benchmark_usd_t": 131.922222,
+   "benchmark_usd_t": 133.96,
    "dlog_unit_value": null,
    "dlog_value": null,
    "dlog_volume": null,
    "partial": true,
-   "through": "2026-09",
-   "unit_value_usd_t": 70.850197,
-   "value_musd": 6105.29398,
-   "volume_mt": 86.17187,
-   "volume_vs_2019_pct": 299.801551,
+   "through": "2026-10",
+   "unit_value_usd_t": 72.454686,
+   "value_musd": 6779.74798,
+   "volume_mt": 93.57225,
+   "volume_vs_2019_pct": 286.849125,
    "year": "2026"
   }
  ],
@@ -331,7 +331,8 @@
    138.5,
    131.9,
    135.2,
-   147.1
+   147.1,
+   152.3
   ],
   "months": [
    "2017-01",
@@ -450,7 +451,8 @@
    "2026-06",
    "2026-07",
    "2026-08",
-   "2026-09"
+   "2026-09",
+   "2026-10"
   ],
   "unit_value_usd_t": [
    64.347001,
@@ -562,14 +564,15 @@
    62.235992,
    64.103687,
    63.279818,
-   65.340806,
+   65.341246,
    66.871644,
-   66.882898,
-   70.621154,
-   73.157873,
+   66.88284,
+   70.621225,
+   73.157802,
    77.564056,
    74.967653,
-   80.339446
+   80.338803,
+   91.136752
   ],
   "volume_mt": [
    2.63051,
@@ -681,17 +684,18 @@
    9.36134,
    10.61946,
    10.1206,
-   6.3503,
+   6.35022,
    11.06131,
-   11.53979,
-   9.83784,
-   10.30517,
+   11.5398,
+   9.83783,
+   10.30518,
    9.12829,
    9.41969,
-   8.40888
+   8.40806,
+   7.40127
   ]
  },
  "schema_version": 1,
  "takeaway": "Coal income followed the Chinese border: shipments fell to 44% of their 2019 tonnage in 2021 and reached 246% in 2025, while Mongolia's price per tonne went from 172 to 64 USD/t.",
- "takeaway_gap": "Mongolia's coal fetched $80/t in Sep 2026 against $147 for the Australian benchmark. Since 2017 it has sold for between 36% and 232% of the benchmark, so world coal prices say little about what Mongolia earns."
+ "takeaway_gap": "Mongolia's coal fetched $91/t in Oct 2026 against $152 for the Australian benchmark. Since 2017 it has sold for between 36% and 232% of the benchmark, so world coal prices say little about what Mongolia earns."
 }

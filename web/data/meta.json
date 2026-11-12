@@ -1,36 +1,36 @@
 {
- "generated_at": "2026-11-03",
+ "generated_at": "2026-11-12",
  "reference": [
   {
-   "current": -0.226184,
+   "current": -0.227306,
    "id": "copper_h12",
    "label": "copper, 12-month sum, 2001 to now",
    "page": "copper",
    "reference": -0.226
   },
   {
-   "current": 0.05919,
+   "current": 0.059163,
    "id": "copper_h12_se",
    "label": "its standard error",
    "page": "copper",
    "reference": 0.059
   },
   {
-   "current": -0.023463,
+   "current": -0.023125,
    "id": "copper_h3_post2017",
    "label": "copper, months 0-3, 2017 to now",
    "page": "copper",
    "reference": -0.024
   },
   {
-   "current": 0.129776,
+   "current": 0.129806,
    "id": "passthrough_h12",
    "label": "pass-through at 12 months (B3)",
    "page": "prices",
    "reference": 0.13
   },
   {
-   "current": 0.216094,
+   "current": 0.21617,
    "id": "passthrough_long_run",
    "label": "pass-through, long run (B3)",
    "page": "prices",
@@ -69,8 +69,8 @@
   "bom": 0,
   "fred": 0,
   "imf_datamapper": 25,
-  "imf_sdmx": 0,
-  "nso": 0,
+  "imf_sdmx": 2,
+  "nso": 10,
   "pinksheet": 0,
   "wdi": 0
  },
@@ -78,26 +78,26 @@
  "sources": [
   {
    "id": "bom",
-   "last_changed": "2026-11-03",
-   "last_obs": "2026-11-03",
+   "last_changed": "2026-11-12",
+   "last_obs": "2026-11-12",
    "status": "ok"
   },
   {
    "id": "nso",
-   "last_changed": "2026-10-20",
-   "last_obs": "2026-09",
+   "last_changed": "2026-11-12",
+   "last_obs": "2026-10",
    "status": "ok"
   },
   {
    "id": "pinksheet",
-   "last_changed": "2026-10-03",
-   "last_obs": "2026-09",
+   "last_changed": "2026-11-12",
+   "last_obs": "2026-10",
    "status": "ok"
   },
   {
    "id": "imf_sdmx",
-   "last_changed": "2026-11-03",
-   "last_obs": "2026-09",
+   "last_changed": "2026-11-12",
+   "last_obs": "2026-10",
    "status": "ok"
   },
   {
@@ -121,12 +121,12 @@
  ],
  "stale": [],
  "through": {
-  "commodities": "2026-09",
-  "cpi": "2026-09",
+  "commodities": "2026-10",
+  "cpi": "2026-10",
   "fx": "2026-10",
   "gdp": "2025",
   "policy_rate": "2026-11-03",
-  "trade": "2026-09",
+  "trade": "2026-10",
   "weo_vintage": "October 2026"
  },
  "versions": {
