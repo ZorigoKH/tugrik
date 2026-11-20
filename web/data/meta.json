@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12",
+ "generated_at": "2026-11-20",
  "reference": [
   {
    "current": -0.227306,
@@ -69,8 +69,8 @@
   "bom": 0,
   "fred": 0,
   "imf_datamapper": 25,
-  "imf_sdmx": 2,
-  "nso": 10,
+  "imf_sdmx": 0,
+  "nso": 0,
   "pinksheet": 0,
   "wdi": 0
  },
@@ -78,13 +78,13 @@
  "sources": [
   {
    "id": "bom",
-   "last_changed": "2026-11-12",
-   "last_obs": "2026-11-12",
+   "last_changed": "2026-11-20",
+   "last_obs": "2026-11-22",
    "status": "ok"
   },
   {
    "id": "nso",
-   "last_changed": "2026-11-12",
+   "last_changed": "2026-11-20",
    "last_obs": "2026-10",
    "status": "ok"
   },
@@ -96,7 +96,7 @@
   },
   {
    "id": "imf_sdmx",
-   "last_changed": "2026-11-12",
+   "last_changed": "2026-11-20",
    "last_obs": "2026-10",
    "status": "ok"
   },
@@ -104,7 +104,7 @@
    "id": "imf_datamapper",
    "last_changed": "2026-10-20",
    "last_obs": "2031",
-   "status": "ok"
+   "status": "stale"
   },
   {
    "id": "wdi",
@@ -119,7 +119,9 @@
    "status": "ok"
   }
  ],
- "stale": [],
+ "stale": [
+  "imf_datamapper"
+ ],
  "through": {
   "commodities": "2026-10",
   "cpi": "2026-10",

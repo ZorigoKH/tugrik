@@ -14,7 +14,7 @@
     "first": "2001-01-02",
     "id": "bom_usdmnt_daily",
     "label": "MNT per US dollar, official daily rate",
-    "last": "2026-11-12",
+    "last": "2026-11-22",
     "status": "ok",
     "units": "MNT per USD"
    },
@@ -117,7 +117,7 @@
     "first": "1994-01",
     "id": "nso_usdmnt_monthly_avg",
     "label": "MNT per US dollar, monthly average (NSO)",
-    "last": "2026-09",
+    "last": "2026-10",
     "status": "ok",
     "units": "MNT per USD"
    },
@@ -126,7 +126,7 @@
     "first": "2006-01",
     "id": "nso_usdmnt_eop",
     "label": "MNT per US dollar, end of month (NSO)",
-    "last": "2026-09",
+    "last": "2026-10",
     "status": "ok",
     "units": "MNT per USD"
    },
@@ -350,7 +350,7 @@
     "first": "2007-01",
     "id": "imf_cpi_yoy",
     "label": "CPI, year on year (IMF)",
-    "last": "2026-09",
+    "last": "2026-10",
     "status": "ok",
     "units": "percent"
    },
@@ -359,7 +359,7 @@
     "first": "2006-02",
     "id": "imf_cpi_mom",
     "label": "CPI, month on month (IMF)",
-    "last": "2026-09",
+    "last": "2026-10",
     "status": "ok",
     "units": "percent"
    },
@@ -418,7 +418,7 @@
     "id": "imf_weo_gdp_growth",
     "label": "Real GDP growth (IMF WEO)",
     "last": "2031",
-    "status": "ok",
+    "status": "stale",
     "units": "percent"
    },
    {
@@ -427,7 +427,7 @@
     "id": "imf_weo_cpi_inflation",
     "label": "CPI inflation, average (IMF WEO)",
     "last": "2031",
-    "status": "ok",
+    "status": "stale",
     "units": "percent"
    },
    {
@@ -436,7 +436,7 @@
     "id": "imf_weo_gov_debt_pct_gdp",
     "label": "General government gross debt (IMF WEO)",
     "last": "2031",
-    "status": "ok",
+    "status": "stale",
     "units": "percent of GDP"
    },
    {
@@ -445,7 +445,7 @@
     "id": "imf_weo_current_account_pct_gdp",
     "label": "Current account balance (IMF WEO)",
     "last": "2031",
-    "status": "ok",
+    "status": "stale",
     "units": "percent of GDP"
    },
    {
@@ -454,7 +454,7 @@
     "id": "imf_weo_china_gdp_growth",
     "label": "China real GDP growth (IMF WEO)",
     "last": "2031",
-    "status": "ok",
+    "status": "stale",
     "units": "percent"
    }
   ],

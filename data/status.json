@@ -16,9 +16,9 @@
   },
   "bom_usdmnt_daily": {
    "first": "2001-01-02",
-   "last_changed": "2026-11-12",
-   "last_obs": "2026-11-12",
-   "rows": 8548,
+   "last_changed": "2026-11-20",
+   "last_obs": "2026-11-22",
+   "rows": 8558,
    "source": "bom"
   },
   "bom_usdmnt_monthly_avg": {
@@ -51,16 +51,16 @@
   },
   "imf_cpi_mom": {
    "first": "2006-02",
-   "last_changed": "2026-10-20",
-   "last_obs": "2026-09",
-   "rows": 248,
+   "last_changed": "2026-11-20",
+   "last_obs": "2026-10",
+   "rows": 249,
    "source": "imf_sdmx"
   },
   "imf_cpi_yoy": {
    "first": "2007-01",
-   "last_changed": "2026-10-20",
-   "last_obs": "2026-09",
-   "rows": 237,
+   "last_changed": "2026-11-20",
+   "last_obs": "2026-10",
+   "rows": 238,
    "source": "imf_sdmx"
   },
   "imf_pcps_copper": {
@@ -268,16 +268,16 @@
   },
   "nso_usdmnt_eop": {
    "first": "2006-01",
-   "last_changed": "2026-10-20",
-   "last_obs": "2026-09",
-   "rows": 249,
+   "last_changed": "2026-11-20",
+   "last_obs": "2026-10",
+   "rows": 250,
    "source": "nso"
   },
   "nso_usdmnt_monthly_avg": {
    "first": "1994-01",
-   "last_changed": "2026-10-20",
-   "last_obs": "2026-09",
-   "rows": 393,
+   "last_changed": "2026-11-20",
+   "last_obs": "2026-10",
+   "rows": 394,
    "source": "nso"
   },
   "pinksheet_brent": {
@@ -355,8 +355,8 @@
   "bom": {
    "error": null,
    "info": {},
-   "last_changed": "2026-11-12",
-   "last_obs": "2026-11-12",
+   "last_changed": "2026-11-20",
+   "last_obs": "2026-11-22",
    "revisions": 0,
    "status": "ok"
   },
@@ -369,29 +369,29 @@
    "status": "ok"
   },
   "imf_datamapper": {
-   "error": null,
+   "error": "fetch failed: FetchError: GET https://www.imf.org/external/datamapper/api/v2/NGDP_RPCH/MNG: HTTP 404",
    "info": {
     "weo_vintage": "October 2026"
    },
    "last_changed": "2026-10-20",
    "last_obs": "2031",
    "revisions": 25,
-   "status": "ok"
+   "status": "stale"
   },
   "imf_sdmx": {
    "error": null,
    "info": {},
-   "last_changed": "2026-11-12",
+   "last_changed": "2026-11-20",
    "last_obs": "2026-10",
-   "revisions": 2,
+   "revisions": 0,
    "status": "ok"
   },
   "nso": {
    "error": null,
    "info": {},
-   "last_changed": "2026-11-12",
+   "last_changed": "2026-11-20",
    "last_obs": "2026-10",
-   "revisions": 10,
+   "revisions": 0,
    "status": "ok"
   },
   "pinksheet": {
